@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1039.jpg,Road_narrows,0.99,673,398,874,595
+roadsigns_1039.jpg,Left_turn,0.95,237,157,433,351
+roadsigns_1039.jpg,Maximum_speed_limit30km,0.78,14,35,165,186
+roadsigns_1039.jpg,Pedestrians_only,0.51,894,517,1093,714
+roadsigns_1039.jpg,Roundabout,0.46,456,276,654,474

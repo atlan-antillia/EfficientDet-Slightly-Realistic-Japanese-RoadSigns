@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1023.jpg,No_bicycles,0.98,12,33,214,234
+roadsigns_1023.jpg,Series_of_curves_to_the_left,0.94,454,275,654,474
+roadsigns_1023.jpg,No_overtaking,0.92,236,155,435,355
+roadsigns_1023.jpg,Maximum_speed_limit50km,0.58,895,520,1043,663

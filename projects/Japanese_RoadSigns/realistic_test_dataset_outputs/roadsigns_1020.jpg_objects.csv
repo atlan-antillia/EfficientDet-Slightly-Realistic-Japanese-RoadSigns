@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1020.jpg,Slippery_road,0.99,452,275,657,472
+roadsigns_1020.jpg,Road_closed_to_all,0.99,677,395,876,592
+roadsigns_1020.jpg,One_way,0.99,238,162,348,347
+roadsigns_1020.jpg,Turn_left_or_right,0.61,15,33,214,232
+roadsigns_1020.jpg,Maximum_speed_limit50km,0.52,895,520,1043,663

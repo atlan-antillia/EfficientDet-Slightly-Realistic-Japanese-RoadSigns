@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1034.jpg,Dangerous_wind_gusts,0.99,12,33,216,235
+roadsigns_1034.jpg,Restriction_ends,0.9,463,276,655,339
+roadsigns_1034.jpg,No_vehicles_wider_than2.2ms,0.88,237,157,435,353
+roadsigns_1034.jpg,No_right_turn_crossing,0.68,896,516,1092,711
+roadsigns_1034.jpg,Vehicles_only,0.43,674,399,823,548

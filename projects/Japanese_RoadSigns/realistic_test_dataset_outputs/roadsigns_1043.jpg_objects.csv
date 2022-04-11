@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1043.jpg,Turn_left_or_right,0.97,679,393,876,591
+roadsigns_1043.jpg,Traffic_light_ahead,0.85,455,279,653,475
+roadsigns_1043.jpg,Left_curve,0.82,238,159,433,353
+roadsigns_1043.jpg,Roundabout,0.82,896,515,1097,712
+roadsigns_1043.jpg,Pedestrians_only,0.8,14,34,218,236

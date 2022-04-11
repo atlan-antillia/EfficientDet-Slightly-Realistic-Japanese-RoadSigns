@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1006.jpg,End_of_restriction,0.95,677,394,874,593
+roadsigns_1006.jpg,Maximum_speed_limit80km,0.95,15,35,166,184
+roadsigns_1006.jpg,Bumpy_road,0.79,237,160,436,358
+roadsigns_1006.jpg,T_junction,0.76,894,519,1093,714
+roadsigns_1006.jpg,Roundabout,0.72,455,276,658,475

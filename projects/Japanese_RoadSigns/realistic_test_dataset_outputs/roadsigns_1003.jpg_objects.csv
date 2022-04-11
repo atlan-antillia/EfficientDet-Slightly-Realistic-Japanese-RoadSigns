@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1003.jpg,Roadworks,0.99,680,396,873,591
+roadsigns_1003.jpg,Left_lane_ends,0.96,13,32,213,235
+roadsigns_1003.jpg,Turn_left_or_right,0.92,239,156,436,352
+roadsigns_1003.jpg,Maximum_speed_limit50km,0.63,455,278,605,424

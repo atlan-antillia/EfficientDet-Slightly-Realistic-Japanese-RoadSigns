@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1004.jpg,Two_stage_right_turn_for_mopeds,0.99,456,276,653,473
+roadsigns_1004.jpg,Steep_ascent10%,0.99,679,398,875,592
+roadsigns_1004.jpg,Safety_zone,0.97,898,517,1091,711
+roadsigns_1004.jpg,Keep_left,0.86,12,30,214,149

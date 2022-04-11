@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1030.jpg,Safety_zone,0.99,681,395,877,593
+roadsigns_1030.jpg,Pedesrtrian_crossing,0.95,458,278,629,469
+roadsigns_1030.jpg,Road_closed_to_all,0.75,241,162,433,354
+roadsigns_1030.jpg,Two_stage_right_turn_for_mopeds,0.68,897,516,1094,711
+roadsigns_1030.jpg,Maximum_speed_limit50km,0.55,12,36,166,185

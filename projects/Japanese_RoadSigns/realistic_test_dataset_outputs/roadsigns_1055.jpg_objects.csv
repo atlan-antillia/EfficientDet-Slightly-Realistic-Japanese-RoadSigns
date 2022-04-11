@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1055.jpg,Right_curve,0.98,238,157,437,351
+roadsigns_1055.jpg,No_buses,0.96,12,32,214,234
+roadsigns_1055.jpg,End_of_restriction,0.95,456,274,655,473
+roadsigns_1055.jpg,Restriction_ends,0.85,904,518,1095,579
+roadsigns_1055.jpg,Sound_horn,0.79,676,397,875,594

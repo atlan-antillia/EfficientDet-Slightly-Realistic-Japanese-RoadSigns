@@ -1,0 +1,6 @@
+id, class, count
+1,Traffic_light_ahead,1
+2,Dangerous_wind_gusts,1
+3,No_right_turn_crossing,1
+4,Straight_ahead_or_right_turn,1
+5,T_junction,1

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1075.jpg,Stop_line,0.98,897,518,1091,714
+roadsigns_1075.jpg,Rotary,0.98,455,278,653,475
+roadsigns_1075.jpg,Turn_left_or_right,0.95,237,156,436,355
+roadsigns_1075.jpg,Train_crossing,0.94,676,400,872,591
+roadsigns_1075.jpg,No_right_turn_crossing,0.75,15,35,215,232

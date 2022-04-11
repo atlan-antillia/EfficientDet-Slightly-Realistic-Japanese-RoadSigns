@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1015.jpg,One_way_to_the_right,0.99,239,158,432,273
+roadsigns_1015.jpg,No_bicycles,0.97,12,32,214,236
+roadsigns_1015.jpg,Stop_line,0.76,896,517,1092,715
+roadsigns_1015.jpg,Left_turn,0.72,458,278,651,474
+roadsigns_1015.jpg,No_twoperson_motorcycles,0.71,676,395,875,592

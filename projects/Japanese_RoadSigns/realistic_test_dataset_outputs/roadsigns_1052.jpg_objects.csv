@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1052.jpg,Roundabout,0.99,679,395,873,589
+roadsigns_1052.jpg,No_twoperson_motorcycles,0.95,11,34,215,236
+roadsigns_1052.jpg,Restricted_parking,0.95,896,515,1095,714
+roadsigns_1052.jpg,Slow_down,0.93,456,278,657,451
+roadsigns_1052.jpg,Left_curve,0.86,232,159,432,356

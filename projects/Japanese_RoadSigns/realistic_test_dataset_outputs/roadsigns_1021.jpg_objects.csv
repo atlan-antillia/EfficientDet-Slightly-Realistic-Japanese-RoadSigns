@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1021.jpg,Bicycles_only,0.97,454,271,655,476
+roadsigns_1021.jpg,No_u_turns,0.96,237,155,438,355
+roadsigns_1021.jpg,Roundabout,0.87,676,396,878,593
+roadsigns_1021.jpg,Left_turn,0.72,13,35,216,212
+roadsigns_1021.jpg,Roundabout,0.62,895,518,1046,667

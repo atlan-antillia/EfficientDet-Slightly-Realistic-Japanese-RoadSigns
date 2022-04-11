@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1035.jpg,Bicycles_and_pedestrians_only,0.99,240,156,435,356
+roadsigns_1035.jpg,Maximum_speed_limit30km,0.78,12,35,165,186
+roadsigns_1035.jpg,Straight_ahead_or_right_turn,0.62,452,277,652,478
+roadsigns_1035.jpg,Safety_zone,0.56,897,516,1093,712

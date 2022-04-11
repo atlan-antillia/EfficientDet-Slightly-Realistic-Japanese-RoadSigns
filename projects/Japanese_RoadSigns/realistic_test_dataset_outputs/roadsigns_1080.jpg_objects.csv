@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1080.jpg,School_zone,0.99,456,279,653,475
+roadsigns_1080.jpg,Roundabout,0.98,238,155,435,352
+roadsigns_1080.jpg,Train_crossing,0.97,896,518,1093,713
+roadsigns_1080.jpg,End_of_restriction,0.91,12,38,130,230
+roadsigns_1080.jpg,Straight_ahead_or_left_turn,0.6,679,399,871,594

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1098.jpg,Other_dangers,0.99,679,398,875,593
+roadsigns_1098.jpg,Bumpy_road,0.98,13,34,216,236
+roadsigns_1098.jpg,No_bicycles,0.93,455,274,654,475
+roadsigns_1098.jpg,Vehicles_only,0.91,237,158,437,355
+roadsigns_1098.jpg,Straight_ahead_or_right_turn,0.82,894,517,1095,715

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1084.jpg,Two_stage_right_turn_for_mopeds,0.99,897,515,1094,714
+roadsigns_1084.jpg,No_pedestrian_crossing,0.98,14,35,211,233
+roadsigns_1084.jpg,Road_closed_to_all,0.95,240,155,435,351
+roadsigns_1084.jpg,Restriction_begins,0.72,460,279,650,339
+roadsigns_1084.jpg,Maximum_speed_limit70km,0.59,678,398,823,543

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1005.jpg,Two_way_traffic_ahead,0.96,458,280,652,473
+roadsigns_1005.jpg,Maximum_speed_limit30km,0.85,236,157,385,305
+roadsigns_1005.jpg,Closed_to_pedestrians,0.77,898,518,1090,712
+roadsigns_1005.jpg,Traffic_light_ahead,0.74,12,32,214,234
+roadsigns_1005.jpg,Sound_horn,0.62,677,395,876,594

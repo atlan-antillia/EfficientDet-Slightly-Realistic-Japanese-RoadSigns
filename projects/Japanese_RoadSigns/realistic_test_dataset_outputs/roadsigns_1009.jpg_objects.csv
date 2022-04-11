@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1009.jpg,End_of_restriction,0.96,895,513,1094,715
+roadsigns_1009.jpg,Two_way_traffic_ahead,0.91,676,395,873,594
+roadsigns_1009.jpg,No_right_turn_crossing,0.9,235,156,435,353
+roadsigns_1009.jpg,Series_of_curves_to_the_right,0.72,14,38,215,234
+roadsigns_1009.jpg,No_waiting,0.71,457,275,655,473

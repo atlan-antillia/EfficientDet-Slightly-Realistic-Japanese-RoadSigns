@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1064.jpg,Safety_zone,0.98,899,518,1093,712
+roadsigns_1064.jpg,Maximum_speed_limit50km,0.84,239,156,436,355
+roadsigns_1064.jpg,Restriction_begins,0.42,677,396,874,592

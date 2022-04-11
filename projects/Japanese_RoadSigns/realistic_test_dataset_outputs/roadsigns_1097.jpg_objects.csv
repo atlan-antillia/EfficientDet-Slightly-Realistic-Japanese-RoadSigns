@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1097.jpg,Directions_indicator,0.98,13,34,214,235
+roadsigns_1097.jpg,Train_crossing,0.88,893,517,1093,713
+roadsigns_1097.jpg,Crossroads,0.8,456,279,655,475
+roadsigns_1097.jpg,Roundabout,0.72,674,398,825,548
+roadsigns_1097.jpg,Keep_right,0.67,238,157,435,353

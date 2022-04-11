@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1053.jpg,Straight_ahead_or_left_turn,0.97,456,275,655,473
+roadsigns_1053.jpg,No_vehicles_higher_than3.3ms,0.78,235,156,437,355
+roadsigns_1053.jpg,Closed_to_pedestrians,0.5,675,396,876,594
+roadsigns_1053.jpg,Restricted_zone,0.45,903,517,1093,579

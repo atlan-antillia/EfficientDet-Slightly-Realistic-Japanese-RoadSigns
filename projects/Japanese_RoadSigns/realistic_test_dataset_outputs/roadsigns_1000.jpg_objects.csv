@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1000.jpg,No_bicycles,0.98,13,33,214,234
+roadsigns_1000.jpg,Train_crossing,0.98,457,278,654,474
+roadsigns_1000.jpg,Maximum_speed_limit50km,0.88,236,157,385,305
+roadsigns_1000.jpg,Maximum_speed_limit50km,0.73,677,397,825,546
+roadsigns_1000.jpg,Bicycles_and_pedestrians_only,0.48,895,515,1093,715

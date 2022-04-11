@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1078.jpg,Road_closed_to_all,0.99,676,394,876,592
+roadsigns_1078.jpg,Straight_ahead_or_right_turn,0.97,896,517,1094,713
+roadsigns_1078.jpg,Bicycles_and_pedestrians_only,0.94,239,155,435,354
+roadsigns_1078.jpg,Maximum_speed_limit50km,0.86,453,277,605,424
+roadsigns_1078.jpg,Left_lane_ends,0.81,15,38,213,234

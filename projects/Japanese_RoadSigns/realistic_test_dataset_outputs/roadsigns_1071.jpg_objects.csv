@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1071.jpg,Sound_horn,0.99,895,515,1096,717
+roadsigns_1071.jpg,No_entry_for_vehicles,0.98,236,155,436,356
+roadsigns_1071.jpg,Right_turn,0.94,458,279,652,474
+roadsigns_1071.jpg,Center_line,0.42,11,25,213,150

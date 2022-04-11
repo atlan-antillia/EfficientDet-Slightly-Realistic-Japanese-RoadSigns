@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1074.jpg,Falling_rocks,0.99,12,33,215,235
+roadsigns_1074.jpg,Series_of_curves_to_the_right,0.97,238,162,432,353
+roadsigns_1074.jpg,Stopping_allowed,0.97,898,520,1095,715
+roadsigns_1074.jpg,Vehicles_only,0.46,454,278,605,426

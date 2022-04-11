@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1032.jpg,Roundabout,0.99,239,157,434,352
+roadsigns_1032.jpg,Other_dangers,0.99,681,397,874,591
+roadsigns_1032.jpg,Crossroads,0.9,12,29,214,235
+roadsigns_1032.jpg,No_right_turn_crossing,0.65,456,275,654,475
+roadsigns_1032.jpg,Slippery_road,0.64,897,515,1094,711

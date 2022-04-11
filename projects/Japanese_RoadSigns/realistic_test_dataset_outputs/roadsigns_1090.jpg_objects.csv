@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1090.jpg,Steep_ascent10%,0.98,680,397,874,591
+roadsigns_1090.jpg,Left_curve,0.88,237,157,434,355
+roadsigns_1090.jpg,No_vehicles_carrying_dangerous_goods,0.88,12,30,216,236
+roadsigns_1090.jpg,Sound_horn,0.57,457,275,654,476

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1044.jpg,Steep_descent10%,0.99,677,395,878,592
+roadsigns_1044.jpg,Road_narrows,0.94,456,279,650,475
+roadsigns_1044.jpg,Maximum_speed_limit40km,0.94,17,38,163,184
+roadsigns_1044.jpg,Vehicles_only,0.86,235,157,435,352
+roadsigns_1044.jpg,Sound_horn,0.41,897,515,1097,714

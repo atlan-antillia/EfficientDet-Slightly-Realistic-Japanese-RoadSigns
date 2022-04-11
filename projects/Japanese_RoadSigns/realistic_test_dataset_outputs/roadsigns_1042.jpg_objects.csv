@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1042.jpg,Buses_priority,0.99,12,34,212,233
+roadsigns_1042.jpg,Turn_right,0.99,456,274,654,474
+roadsigns_1042.jpg,Restricted_parking,0.72,676,396,876,594
+roadsigns_1042.jpg,Vehicles_only,0.5,895,515,1095,717

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1087.jpg,Y_junction,0.94,458,280,653,473
+roadsigns_1087.jpg,Vehicles_only,0.93,895,516,1094,715
+roadsigns_1087.jpg,Left_turn,0.87,241,157,431,352
+roadsigns_1087.jpg,Roundabout,0.73,676,399,823,545
+roadsigns_1087.jpg,Minimum_speed_limit50km,0.48,15,38,216,212

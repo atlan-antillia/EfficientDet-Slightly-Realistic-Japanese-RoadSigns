@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1008.jpg,No_twoperson_motorcycles,0.98,12,32,215,234
+roadsigns_1008.jpg,End_of_restriction,0.96,457,273,655,473
+roadsigns_1008.jpg,Maximum_speed_limit50km,0.66,679,399,823,543
+roadsigns_1008.jpg,Straight_ahead_or_right_turn,0.64,894,517,1094,715
+roadsigns_1008.jpg,Maximum_speed_limit80km,0.59,239,159,384,304
