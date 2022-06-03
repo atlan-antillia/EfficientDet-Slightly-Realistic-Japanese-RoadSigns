@@ -37,14 +37,14 @@ You have to modify extra_compiler_args in setup.py in the following way:<br>
 <h3>
 2. Installing EfficientDet-Realistic-Japanese-RoadSigns
 </h3>
-Please clone EfficientDet-Slightly-Realistic-Japanese-RoadSigns.git in the working folder <b>c:\google</b>.<br>
+Please clone EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes.git in the working folder <b>c:\google</b>.<br>
 <pre>
->git clone https://github.com/atlan-antillia/EfficientDet-Slightly-Realistic-Japanese-RoadSigns.git<br>
+>git clone https://github.com/atlan-antillia/EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes.git<br>
 </pre>
-You can see the following folder <b>projects</b> in  EfficientDet-Japanese-RoadSigns folder of the working folder.<br>
+You can see the following folder <b>projects</b> in  EfficientDet-Japanese-RoadSigns-90classes folder of the working folder.<br>
 
 <pre>
-EfficientDet-Slightly-Realistic-Japanese-RoadSigns
+EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes
 └─projects
     └─Japanese_RoadSigns
         ├─eval
