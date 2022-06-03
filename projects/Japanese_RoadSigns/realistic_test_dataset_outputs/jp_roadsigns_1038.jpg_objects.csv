@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1038.jpg,Go_straight,0.97,16,37,215,236
+jp_roadsigns_1038.jpg,Slow_down,0.93,438,280,600,420
+jp_roadsigns_1038.jpg,One_way,0.87,232,159,342,353

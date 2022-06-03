@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1034.jpg,Stopping_allowed,0.94,649,399,814,563
+jp_roadsigns_1034.jpg,Turn_left_or_right,0.8,859,519,1022,681
+jp_roadsigns_1034.jpg,Slippery_road,0.79,227,159,389,321
+jp_roadsigns_1034.jpg,Right_curve,0.52,16,39,213,233

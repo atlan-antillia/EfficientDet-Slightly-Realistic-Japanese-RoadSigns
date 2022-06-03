@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1025.jpg,No_pedestrian_crossing,0.98,13,35,211,233
-roadsigns_1025.jpg,Safety_zone,0.97,678,397,875,592
-roadsigns_1025.jpg,Straight_ahead_or_right_turn,0.88,454,277,654,477
-roadsigns_1025.jpg,Maximum_speed_limit50km,0.83,898,518,1046,664
-roadsigns_1025.jpg,Closed_to_pedestrians,0.72,236,156,437,355

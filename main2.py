@@ -437,7 +437,8 @@ def main(_):
       if early_stopping != None:
         ap = eval_results['AP']
         ar = eval_results['ARmax1']
-        breaking_loop = early_stopping.validate(e, ap, ar)
+        #2022/05/10 
+        early_stop = early_stopping.validate(e, ap, ar)
       return early_stop
       # </added>
 

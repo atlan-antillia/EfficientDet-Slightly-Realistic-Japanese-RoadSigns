@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1073.jpg,No_entry_for_vehicles,0.99,14,33,217,237
-roadsigns_1073.jpg,Road_closed_to_vehicles,0.98,679,395,876,592
-roadsigns_1073.jpg,Steep_descent10%,0.98,894,515,1092,714
-roadsigns_1073.jpg,No_entry_for_vehicles,0.97,235,155,434,354
-roadsigns_1073.jpg,Restriction_ends,0.83,460,278,654,343

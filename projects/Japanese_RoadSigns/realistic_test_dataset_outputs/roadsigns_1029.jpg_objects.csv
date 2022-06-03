@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1029.jpg,School_zone,0.99,241,158,432,354
-roadsigns_1029.jpg,Stop_line,0.98,680,397,874,592
-roadsigns_1029.jpg,No_entry_for_vehicles,0.9,897,514,1095,715
-roadsigns_1029.jpg,Maximum_speed_limit50km,0.79,14,35,167,186

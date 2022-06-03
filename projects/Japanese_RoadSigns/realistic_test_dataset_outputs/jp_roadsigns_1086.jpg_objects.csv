@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1086.jpg,Stop_line,0.99,857,519,1053,719
+jp_roadsigns_1086.jpg,Slow_down,0.97,652,401,813,542
+jp_roadsigns_1086.jpg,No_u_turns,0.92,227,157,393,324
+jp_roadsigns_1086.jpg,Left_turn,0.71,440,275,633,470
+jp_roadsigns_1086.jpg,Bicycles_only,0.41,16,37,181,200

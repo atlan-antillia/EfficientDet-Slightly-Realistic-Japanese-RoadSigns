@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1006.jpg,Stopping_allowed,0.92,230,160,425,355
+jp_roadsigns_1006.jpg,No_entry_for_vehicles,0.86,434,276,602,444
+jp_roadsigns_1006.jpg,Traffic_light_ahead,0.44,855,519,1021,682

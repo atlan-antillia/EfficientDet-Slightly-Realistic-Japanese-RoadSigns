@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1076.jpg,Roundabout,0.99,239,156,434,352
-roadsigns_1076.jpg,Turn_right,0.98,678,395,876,596
-roadsigns_1076.jpg,School_zone,0.98,13,36,212,233
-roadsigns_1076.jpg,Stop,0.96,900,521,1094,691
-roadsigns_1076.jpg,Vehicles_only,0.95,455,278,654,474

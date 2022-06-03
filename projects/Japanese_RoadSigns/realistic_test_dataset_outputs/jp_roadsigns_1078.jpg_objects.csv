@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1078.jpg,Train_crossing,0.93,649,399,847,595
+jp_roadsigns_1078.jpg,No_twoperson_motorcycles,0.66,15,40,180,201
+jp_roadsigns_1078.jpg,Maximum_speed_limit80km,0.59,442,281,560,398

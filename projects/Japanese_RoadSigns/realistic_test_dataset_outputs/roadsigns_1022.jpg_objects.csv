@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1022.jpg,One_way_to_the_right,0.99,241,159,430,273
-roadsigns_1022.jpg,Sound_horn,0.91,456,276,654,475
-roadsigns_1022.jpg,Maximum_speed_limit80km,0.84,898,518,1045,664
-roadsigns_1022.jpg,Roundabout,0.67,674,399,823,543
-roadsigns_1022.jpg,No_stopping,0.63,14,37,213,233

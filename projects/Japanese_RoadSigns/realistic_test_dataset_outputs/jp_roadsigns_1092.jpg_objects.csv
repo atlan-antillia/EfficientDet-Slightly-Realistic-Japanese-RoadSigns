@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1092.jpg,Sound_horn,0.96,438,277,601,441
+jp_roadsigns_1092.jpg,No_motorless_vehicle_except_bicycle,0.92,16,36,211,235
+jp_roadsigns_1092.jpg,Turn_left,0.78,226,159,390,325
+jp_roadsigns_1092.jpg,Road_narrows,0.69,647,398,813,560
+jp_roadsigns_1092.jpg,Pedestrians_only,0.43,860,515,1019,681

@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1099.jpg,Stopping_allowed,0.98,238,159,435,354
-roadsigns_1099.jpg,Straight_ahead_or_left_turn,0.97,457,275,655,472
-roadsigns_1099.jpg,End_of_restriction,0.94,895,515,1094,716
-roadsigns_1099.jpg,Maximum_speed_limit50km,0.87,676,398,826,544
-roadsigns_1099.jpg,No_stopping,0.49,11,34,217,234

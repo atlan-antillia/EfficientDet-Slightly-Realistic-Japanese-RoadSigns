@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1069.jpg,Buses_priority,0.98,14,40,181,201
+jp_roadsigns_1069.jpg,Stopping_allowed,0.94,857,519,1022,683
+jp_roadsigns_1069.jpg,Two_way_traffic_ahead,0.94,648,396,843,593
+jp_roadsigns_1069.jpg,Left_curve,0.66,439,278,602,441
+jp_roadsigns_1069.jpg,No_twoperson_motorcycles,0.5,227,157,390,321

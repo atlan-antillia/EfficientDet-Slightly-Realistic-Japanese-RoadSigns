@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1031.jpg,Keep_right,0.99,13,33,215,236
-roadsigns_1031.jpg,Straight_ahead_or_left_turn,0.98,677,395,876,595
-roadsigns_1031.jpg,Vehicles_only,0.95,456,277,655,474
-roadsigns_1031.jpg,No_buses,0.82,236,155,434,353
-roadsigns_1031.jpg,Road_closed_to_all,0.62,896,515,1097,713

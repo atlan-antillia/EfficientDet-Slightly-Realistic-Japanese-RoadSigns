@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1017.jpg,Directions_indicator,0.98,12,34,214,235
-roadsigns_1017.jpg,Series_of_curves_to_the_right,0.97,240,158,435,357
-roadsigns_1017.jpg,Maximum_speed_limit50km,0.7,893,518,1045,667
-roadsigns_1017.jpg,Sound_horn,0.57,458,275,656,474

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1064.jpg,Slow_down,0.98,230,161,391,302
+jp_roadsigns_1064.jpg,Train_crossing,0.95,438,276,632,471
+jp_roadsigns_1064.jpg,Sound_horn,0.92,16,39,181,134
+jp_roadsigns_1064.jpg,Straight_ahead_or_left_turn,0.79,858,521,1019,611
+jp_roadsigns_1064.jpg,Turn_right,0.58,650,396,811,558

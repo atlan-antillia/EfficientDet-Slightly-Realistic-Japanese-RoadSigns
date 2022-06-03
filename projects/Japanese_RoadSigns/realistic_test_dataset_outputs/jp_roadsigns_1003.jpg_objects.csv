@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1003.jpg,No_vehicles_carrying_dangerous_goods,0.95,647,398,811,563
+jp_roadsigns_1003.jpg,No_overtaking,0.89,13,38,181,203
+jp_roadsigns_1003.jpg,Maximum_speed_limit30km,0.82,228,155,422,354
+jp_roadsigns_1003.jpg,Maximum_speed_limit30km,0.77,438,278,587,426
+jp_roadsigns_1003.jpg,Rotary,0.71,858,516,1054,712

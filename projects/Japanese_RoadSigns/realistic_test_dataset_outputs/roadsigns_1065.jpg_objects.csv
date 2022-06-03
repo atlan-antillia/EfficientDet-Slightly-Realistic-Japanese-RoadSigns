@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1065.jpg,Maximum_speed_limit60km,0.97,13,37,164,183
-roadsigns_1065.jpg,School_crossing,0.95,898,516,1068,709
-roadsigns_1065.jpg,School_crossing,0.91,240,156,409,347
-roadsigns_1065.jpg,Straight_ahead_or_right_turn,0.65,679,399,874,593
-roadsigns_1065.jpg,Two_stage_right_turn_for_mopeds,0.56,458,275,654,473

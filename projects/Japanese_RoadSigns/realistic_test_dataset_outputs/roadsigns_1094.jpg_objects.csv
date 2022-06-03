@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1094.jpg,Restricted_parking,0.99,681,396,875,591
-roadsigns_1094.jpg,Bicycles_only,0.99,14,34,215,233
-roadsigns_1094.jpg,Straight_ahead_or_right_turn,0.97,458,277,653,472
-roadsigns_1094.jpg,Safety_zone,0.93,899,515,1091,711
-roadsigns_1094.jpg,Vehicles_only,0.93,238,158,435,351

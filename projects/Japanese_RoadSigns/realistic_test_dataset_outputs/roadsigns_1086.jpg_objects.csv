@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1086.jpg,One_way_to_the_right,0.98,680,399,872,511
-roadsigns_1086.jpg,Straight_ahead_or_right_turn,0.95,457,277,653,473
-roadsigns_1086.jpg,T_junction,0.92,893,516,1094,715
-roadsigns_1086.jpg,No_right_turn_crossing,0.8,238,156,436,353

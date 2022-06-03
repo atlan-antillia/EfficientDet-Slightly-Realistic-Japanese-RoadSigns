@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1089.jpg,Bicycles_only,0.99,648,395,842,592
+jp_roadsigns_1089.jpg,Bicycles_and_pedestrians_only,0.97,230,157,425,357
+jp_roadsigns_1089.jpg,Stop,0.97,861,518,1020,661
+jp_roadsigns_1089.jpg,No_vehicles_carrying_dangerous_goods,0.91,16,36,182,202
+jp_roadsigns_1089.jpg,Stop_line,0.7,442,279,547,467

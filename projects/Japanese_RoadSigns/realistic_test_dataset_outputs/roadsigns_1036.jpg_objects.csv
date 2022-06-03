@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1036.jpg,Turn_left_or_right,0.98,679,396,875,591
-roadsigns_1036.jpg,Closed_to_pedestrians,0.97,12,35,212,234
-roadsigns_1036.jpg,Bicycles_and_pedestrians_only,0.86,457,277,653,473
-roadsigns_1036.jpg,No_twoperson_motorcycles,0.73,895,516,1095,714
-roadsigns_1036.jpg,Restriction_ends,0.4,247,159,432,218

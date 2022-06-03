@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1093.jpg,Left_curve,0.93,14,37,179,200
+jp_roadsigns_1093.jpg,Restriction_ends,0.8,656,400,840,454
+jp_roadsigns_1093.jpg,Keep_right,0.55,227,158,388,320
+jp_roadsigns_1093.jpg,Sound_horn,0.5,858,519,1021,680

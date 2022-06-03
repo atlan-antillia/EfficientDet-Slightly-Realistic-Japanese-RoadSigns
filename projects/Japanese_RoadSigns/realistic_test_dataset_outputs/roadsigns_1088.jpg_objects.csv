@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1088.jpg,Wild_animals_crossing,0.94,896,516,1096,714
-roadsigns_1088.jpg,Restricted_parking,0.92,675,397,826,546
-roadsigns_1088.jpg,Restricted_parking,0.77,240,157,435,355
-roadsigns_1088.jpg,Left_curve,0.77,458,277,655,474
-roadsigns_1088.jpg,No_buses,0.48,14,35,216,234

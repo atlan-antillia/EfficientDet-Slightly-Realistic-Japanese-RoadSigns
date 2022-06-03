@@ -1,0 +1,5 @@
+id, class, count
+1,Roundabout,1
+2,Straight_ahead_or_left_turn,1
+3,Dangerous_wind_gusts,1
+4,Series_of_curves_to_the_right,1

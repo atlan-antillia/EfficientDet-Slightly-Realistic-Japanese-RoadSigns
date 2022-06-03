@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1060.jpg,No_twoperson_motorcycles,0.98,12,33,216,236
-roadsigns_1060.jpg,T_junction,0.93,237,157,435,354
-roadsigns_1060.jpg,End_of_restriction,0.92,456,274,656,476
-roadsigns_1060.jpg,Road_closed_to_vehicles,0.91,896,515,1094,713
-roadsigns_1060.jpg,No_stopping,0.58,677,394,878,593

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1012.jpg,Stop_line,0.99,439,277,633,475
+jp_roadsigns_1012.jpg,Buses_priority,0.98,12,38,181,201
+jp_roadsigns_1012.jpg,Series_of_curves_to_the_left,0.94,858,515,1056,714
+jp_roadsigns_1012.jpg,Maximum_speed_limit30km,0.69,227,157,379,307
+jp_roadsigns_1012.jpg,Series_of_curves_to_the_right,0.44,650,397,845,597

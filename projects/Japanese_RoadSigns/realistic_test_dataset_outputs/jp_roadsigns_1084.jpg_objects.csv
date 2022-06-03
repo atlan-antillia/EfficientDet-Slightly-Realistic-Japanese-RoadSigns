@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1084.jpg,Steep_descent10%,0.98,856,518,1023,680
+jp_roadsigns_1084.jpg,No_twoperson_motorcycles,0.94,649,394,846,594
+jp_roadsigns_1084.jpg,Left_curve,0.93,12,38,184,204
+jp_roadsigns_1084.jpg,One_way_to_the_right,0.47,227,156,417,271

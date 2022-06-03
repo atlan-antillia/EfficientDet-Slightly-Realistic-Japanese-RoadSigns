@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1037.jpg,Pedestrians_only,0.98,457,276,654,474
-roadsigns_1037.jpg,No_twoperson_motorcycles,0.72,674,397,877,594
-roadsigns_1037.jpg,Vehicles_only,0.69,237,158,436,353
-roadsigns_1037.jpg,Maximum_speed_limit90km,0.65,15,32,215,233
-roadsigns_1037.jpg,Closed_to_pedestrians,0.53,897,516,1095,712

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1056.jpg,Left_curve,0.99,15,37,212,234
+jp_roadsigns_1056.jpg,Two_stage_right_turn_for_mopeds,0.81,857,517,1022,682
+jp_roadsigns_1056.jpg,Pedesrtrian_crossing,0.76,439,281,610,471
+jp_roadsigns_1056.jpg,Left_curve,0.75,229,157,388,321
+jp_roadsigns_1056.jpg,Keep_left,0.63,647,397,811,562

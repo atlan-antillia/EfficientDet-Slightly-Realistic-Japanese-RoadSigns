@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1021.jpg,Parking_allowed,0.87,440,280,602,439
+jp_roadsigns_1021.jpg,No_pedestrian_crossing,0.86,860,519,1019,680
+jp_roadsigns_1021.jpg,Roundabout,0.83,17,39,159,199
+jp_roadsigns_1021.jpg,Roadworks,0.79,646,399,844,594
+jp_roadsigns_1021.jpg,Slow_down,0.5,230,160,394,322

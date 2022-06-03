@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1019.jpg,No_twoperson_motorcycles,0.98,13,33,215,235
-roadsigns_1019.jpg,Straight_ahead_or_left_turn,0.97,455,276,653,473
-roadsigns_1019.jpg,Vehicles_only,0.81,238,159,436,353
-roadsigns_1019.jpg,Maximum_speed_limit50km,0.76,895,518,1043,666
-roadsigns_1019.jpg,Restricted_parking,0.71,676,396,875,591

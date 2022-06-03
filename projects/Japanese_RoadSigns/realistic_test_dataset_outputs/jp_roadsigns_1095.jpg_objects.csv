@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1095.jpg,Maximum_speed_limit30km,0.92,17,36,166,185
+jp_roadsigns_1095.jpg,Pedesrtrian_crossing,0.89,859,518,1002,678
+jp_roadsigns_1095.jpg,Roundabout,0.88,442,279,631,470
+jp_roadsigns_1095.jpg,Crossroads,0.72,229,157,421,352

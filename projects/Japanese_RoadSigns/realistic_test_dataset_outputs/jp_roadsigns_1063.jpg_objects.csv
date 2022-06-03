@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1063.jpg,Steep_ascent10%,0.98,859,517,1052,713
+jp_roadsigns_1063.jpg,Maximum_speed_limit30km,0.84,443,279,586,424
+jp_roadsigns_1063.jpg,Series_of_curves_to_the_right,0.84,648,397,840,593
+jp_roadsigns_1063.jpg,Traffic_light_ahead,0.8,230,158,422,352
+jp_roadsigns_1063.jpg,No_stopping,0.7,15,39,215,236

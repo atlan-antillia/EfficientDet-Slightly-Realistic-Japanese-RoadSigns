@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1001.jpg,Stop,0.96,237,157,434,331
-roadsigns_1001.jpg,Series_of_curves_to_the_left,0.94,677,394,874,595
-roadsigns_1001.jpg,Bicycles_only,0.89,895,514,1093,712
-roadsigns_1001.jpg,Roundabout,0.65,456,280,605,424

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+jp_roadsigns_1072.jpg,Dangerous_wind_gusts,0.97,12,38,181,201
+jp_roadsigns_1072.jpg,Steep_descent10%,0.96,437,278,635,474
+jp_roadsigns_1072.jpg,Maximum_speed_limit30km,0.88,859,518,1020,679
+jp_roadsigns_1072.jpg,Straight_ahead_or_left_turn,0.84,648,399,813,562
+jp_roadsigns_1072.jpg,Stop_line,0.83,231,159,422,353
