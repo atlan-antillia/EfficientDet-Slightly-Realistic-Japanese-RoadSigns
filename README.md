@@ -445,7 +445,7 @@ python ../../SavedModelInferencer.py ^
 <br>
 
 <h3>9. COCO metrics of inference result</h3>
-The 3_inference.bat computes also the COCO metrics(f, map, mar) to the realistic_test_dataset as shown below:<br>
+The 3_inference.bat computes also the COCO metrics(f, map, mar) file to the realistic_test_dataset as shown below:<br>
 
 <a href="./projects/Japanese_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 <br>
