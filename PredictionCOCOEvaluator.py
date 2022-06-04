@@ -20,7 +20,7 @@
 # coco_prdiction_to_test_dataset.jscon and
 # coco_ground_truth_to_test_dataset.json   
 
-# 2022/06/05 Updated to write coco_metrics(f, map, mar) to prediction_f_map_ar.csv.
+# 2022/06/05 Updated to write coco_metrics(f, map, mar) to prediction_f_map_mar.csv.
 
 import os
 import sys
