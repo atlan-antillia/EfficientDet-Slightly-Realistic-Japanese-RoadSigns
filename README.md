@@ -93,7 +93,7 @@ The downloaded train and valid dataset must be placed in ./projects/Japanese_Roa
 <br>
 
 <h3>2.4 Workarounds for Windows</h3>
-As you know or may not know, the efficientdet of training a model and creating a saved_model do not 
+As you know or may not know, the efficientdet of training a model and creating a saved_model does not 
 run well on Windows environment in case of tensorflow 2.7.1(probably after the version 2.5.0) as shown below:. 
 <pre>
 INFO:tensorflow:Saving checkpoints for 0 into ./models\model.ckpt.
