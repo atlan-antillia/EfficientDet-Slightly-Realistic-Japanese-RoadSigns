@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1024.jpg,Slippery_road,0.97,649,397,844,593
-jp_roadsigns_1024.jpg,Straight_ahead_or_right_turn,0.9,857,516,1020,679
-jp_roadsigns_1024.jpg,Straight_ahead_or_left_turn,0.9,439,275,634,475
-jp_roadsigns_1024.jpg,Crossroads,0.81,14,37,180,202
-jp_roadsigns_1024.jpg,Left_turn,0.67,229,158,424,355
+jp_roadsigns_1024.jpg,Left_turn,0.96,227,158,424,357
+jp_roadsigns_1024.jpg,Straight_ahead_or_left_turn,0.95,439,275,634,475
+jp_roadsigns_1024.jpg,Straight_ahead_or_right_turn,0.92,857,516,1019,680
+jp_roadsigns_1024.jpg,Slippery_road,0.89,648,399,843,595
+jp_roadsigns_1024.jpg,Crossroads,0.56,13,36,180,200

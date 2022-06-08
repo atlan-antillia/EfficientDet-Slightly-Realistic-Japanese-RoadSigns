@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1054.jpg,One_way_to_the_right,0.98,651,400,841,509
-jp_roadsigns_1054.jpg,Straight_ahead_or_right_turn,0.95,857,518,1053,715
-jp_roadsigns_1054.jpg,Falling_rocks,0.88,227,158,422,354
-jp_roadsigns_1054.jpg,Buses_priority,0.46,14,36,217,237
-jp_roadsigns_1054.jpg,Two_way_traffic_ahead,0.4,437,274,633,474
+jp_roadsigns_1054.jpg,Straight_ahead_or_right_turn,0.94,858,518,1055,716
+jp_roadsigns_1054.jpg,Falling_rocks,0.94,226,158,422,355
+jp_roadsigns_1054.jpg,One_way_to_the_right,0.87,652,398,840,508
+jp_roadsigns_1054.jpg,Dangerous_wind_gusts,0.67,14,36,217,237

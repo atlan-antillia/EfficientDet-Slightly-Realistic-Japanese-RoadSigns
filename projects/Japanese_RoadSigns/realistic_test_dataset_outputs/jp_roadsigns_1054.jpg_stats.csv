@@ -1,6 +1,5 @@
 id, class, count
-1,One_way_to_the_right,1
-2,Straight_ahead_or_right_turn,1
-3,Falling_rocks,1
-4,Buses_priority,1
-5,Two_way_traffic_ahead,1
+1,Straight_ahead_or_right_turn,1
+2,Falling_rocks,1
+3,One_way_to_the_right,1
+4,Dangerous_wind_gusts,1

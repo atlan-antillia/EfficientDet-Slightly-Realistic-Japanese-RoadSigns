@@ -1,6 +1,6 @@
 id, class, count
-1,Go_straight,1
-2,Turn_right,1
-3,Left_curve,1
-4,No_u_turns,1
-5,Maximum_speed_limit30km,1
+1,Turn_right,1
+2,No_u_turns,1
+3,Go_straight,1
+4,Rotary,1
+5,Sound_horn,1

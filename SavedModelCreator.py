@@ -32,7 +32,8 @@ import shutil
 
 import numpy as np
 from PIL import Image
-import tensorflow.compat.v1 as tf
+#import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 import hparams_config
 
@@ -87,7 +88,7 @@ class SavedModelCreator(ModelInspector):
 
   def export_saved_model(self, **kwargs):
     """Export a saved model for inference."""
-    tf.enable_resource_variables()
+    #tf.enable_resource_variables()
     driver = inference.ServingDriver(
         self.model_name,
         self.ckpt_path,
@@ -100,6 +101,12 @@ class SavedModelCreator(ModelInspector):
     if os.path.exists(self.saved_model_dir):
       shutil.rmtree(self.saved_model_dir)
       print("=== rmtree saved_model_dir {}".format(self.saved_model_dir))
+    """
+    temp_dir = FLAGS.saved_model_dir + "/variables/variables_temp"
+    print("=== create temp_dir {}".format(temp_dir))
+    if not os.path.exists(temp_dir):
+      os.makedirs(temp_dir)
+    """
     driver.export(self.saved_model_dir, self.tflite_path, self.tensorrt)
 
 
@@ -108,6 +115,12 @@ def main(_):
     logging.info('Deleting log dir ...')
     tf.io.gfile.rmtree(FLAGS.logdir)
 
+  if not os.path.exists(FLAGS.ckpt_path):
+    raise Exception("FATAL ERROR: Not found ckpt_path {}".format(FLAGS.ckpt_path))
+
+  if not os.path.exists(FLAGS.saved_model_dir):
+    os.makedirs(FLAGS.saved_model_dir)
+    
   creator = SavedModelCreator(
       model_name=FLAGS.model_name,
       logdir=FLAGS.logdir,
@@ -140,6 +153,8 @@ def main(_):
 
 if __name__ == '__main__':
   logging.set_verbosity(logging.WARNING)
-  tf.enable_v2_tensorshape()
-  tf.disable_eager_execution()
+  #tf.enable_v2_tensorshape()
+  #tf.disable_eager_execution()
+  if tf.executing_eagerly():
+   tf.compat.v1.disable_eager_execution()
   app.run(main)

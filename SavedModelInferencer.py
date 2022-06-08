@@ -163,7 +163,8 @@ def main(_):
   if tf.io.gfile.exists(FLAGS.logdir) and FLAGS.delete_logdir:
     logging.info('Deleting log dir ...')
     tf.io.gfile.rmtree(FLAGS.logdir)
-
+  if not os.path.exists(FLAGS.saved_model_dir):
+    raise Exception("FATAL ERROR: Not found saved_model {}".format(FLAGS.saved_model_dir))
   inferencer = SavedModelInferencer(
       model_name=FLAGS.model_name,
       logdir=FLAGS.logdir,

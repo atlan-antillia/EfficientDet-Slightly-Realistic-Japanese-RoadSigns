@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1090.jpg,Sound_horn,0.98,857,516,1053,715
-jp_roadsigns_1090.jpg,No_stopping,0.83,647,398,812,561
-jp_roadsigns_1090.jpg,No_pedestrian_crossing,0.83,12,39,181,202
-jp_roadsigns_1090.jpg,Maximum_speed_limit30km,0.71,438,276,584,424
+jp_roadsigns_1090.jpg,Sound_horn,0.97,858,516,1052,714
+jp_roadsigns_1090.jpg,No_pedestrian_crossing,0.92,12,40,181,203
+jp_roadsigns_1090.jpg,Maximum_speed_limit30km,0.82,438,277,584,425
+jp_roadsigns_1090.jpg,No_stopping,0.51,647,398,814,562

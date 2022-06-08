@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1001.jpg,Crossroads,0.98,16,38,216,235
-jp_roadsigns_1001.jpg,Straight_ahead_or_right_turn,0.95,859,517,1020,680
-jp_roadsigns_1001.jpg,Series_of_curves_to_the_left,0.82,439,277,632,472
-jp_roadsigns_1001.jpg,Roundabout,0.81,230,159,388,317
-jp_roadsigns_1001.jpg,Rotary,0.7,647,398,807,561
+jp_roadsigns_1001.jpg,Crossroads,0.99,14,38,216,236
+jp_roadsigns_1001.jpg,Straight_ahead_or_right_turn,0.91,859,517,1020,680
+jp_roadsigns_1001.jpg,Left_curve,0.82,648,398,810,560
+jp_roadsigns_1001.jpg,Series_of_curves_to_the_left,0.76,439,277,633,472
+jp_roadsigns_1001.jpg,Bicycles_only,0.62,231,159,387,318

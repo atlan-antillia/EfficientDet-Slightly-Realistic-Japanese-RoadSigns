@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1048.jpg,Slippery_road,0.94,434,276,602,440
-jp_roadsigns_1048.jpg,Maximum_speed_limit30km,0.74,15,36,215,237
-jp_roadsigns_1048.jpg,Series_of_curves_to_the_right,0.72,646,398,810,560
-jp_roadsigns_1048.jpg,Keep_right,0.58,225,157,389,323
-jp_roadsigns_1048.jpg,Pedesrtrian_crossing,0.56,856,520,1031,712
+jp_roadsigns_1048.jpg,Maximum_speed_limit30km,0.89,16,37,216,237
+jp_roadsigns_1048.jpg,Slippery_road,0.88,434,275,602,439
+jp_roadsigns_1048.jpg,Series_of_curves_to_the_right,0.87,648,397,811,560
+jp_roadsigns_1048.jpg,Keep_right,0.78,227,156,388,320
+jp_roadsigns_1048.jpg,Pedesrtrian_crossing,0.7,856,519,1032,712

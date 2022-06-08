@@ -1,6 +1,6 @@
 id, class, count
 1,Parking_allowed,1
-2,No_pedestrian_crossing,1
-3,Roundabout,1
+2,Pedesrtrian_crossing,1
+3,No_pedestrian_crossing,1
 4,Roadworks,1
-5,Slow_down,1
+5,Stopping_allowed,1

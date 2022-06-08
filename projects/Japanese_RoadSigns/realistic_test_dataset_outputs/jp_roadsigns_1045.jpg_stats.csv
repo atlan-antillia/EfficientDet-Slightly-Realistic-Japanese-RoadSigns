@@ -1,6 +1,6 @@
 id, class, count
-1,Turn_right,1
-2,Bicycles_and_pedestrians_only,1
+1,Bicycles_and_pedestrians_only,1
+2,Series_of_curves_to_the_right,1
 3,Turn_left_or_right,1
-4,Series_of_curves_to_the_right,1
-5,Dangerous_wind_gusts,1
+4,Turn_right,1
+5,Falling_rocks,1

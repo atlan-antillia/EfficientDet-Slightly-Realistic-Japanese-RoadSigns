@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1045.jpg,Turn_right,0.98,648,396,842,595
-jp_roadsigns_1045.jpg,Bicycles_and_pedestrians_only,0.98,231,156,423,355
-jp_roadsigns_1045.jpg,Turn_left_or_right,0.94,860,518,1020,679
-jp_roadsigns_1045.jpg,Series_of_curves_to_the_right,0.91,439,278,632,475
-jp_roadsigns_1045.jpg,Dangerous_wind_gusts,0.45,12,39,181,202
+jp_roadsigns_1045.jpg,Bicycles_and_pedestrians_only,0.98,231,156,423,356
+jp_roadsigns_1045.jpg,Series_of_curves_to_the_right,0.97,440,277,633,473
+jp_roadsigns_1045.jpg,Turn_left_or_right,0.96,860,519,1019,679
+jp_roadsigns_1045.jpg,Turn_right,0.89,647,396,842,595
+jp_roadsigns_1045.jpg,Falling_rocks,0.61,12,35,181,202

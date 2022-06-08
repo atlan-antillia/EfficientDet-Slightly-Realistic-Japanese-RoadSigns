@@ -1,5 +1,6 @@
 id, class, count
 1,Stop_line,1
-2,Straight_ahead_or_right_turn,1
-3,Bumpy_road,1
-4,Rotary,1
+2,Crossroads,1
+3,Pedesrtrian_crossing,1
+4,Bumpy_road,1
+5,Rotary,1

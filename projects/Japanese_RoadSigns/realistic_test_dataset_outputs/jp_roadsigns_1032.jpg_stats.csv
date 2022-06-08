@@ -1,6 +1,5 @@
 id, class, count
 1,Stop,1
-2,Dangerous_wind_gusts,1
-3,Turn_right,1
-4,Two_way_traffic_ahead,1
-5,Falling_rocks,1
+2,Two_way_traffic_ahead,1
+3,Dangerous_wind_gusts,1
+4,Roundabout,1

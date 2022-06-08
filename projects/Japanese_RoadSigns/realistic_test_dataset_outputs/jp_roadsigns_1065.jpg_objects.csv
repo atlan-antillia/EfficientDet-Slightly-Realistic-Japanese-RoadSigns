@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1065.jpg,Roundabout,0.96,862,519,1050,710
-jp_roadsigns_1065.jpg,Straight_ahead_or_left_turn,0.89,648,399,813,563
-jp_roadsigns_1065.jpg,Dangerous_wind_gusts,0.5,13,35,212,235
-jp_roadsigns_1065.jpg,Series_of_curves_to_the_right,0.42,438,280,635,475
+jp_roadsigns_1065.jpg,Straight_ahead_or_left_turn,0.91,648,398,814,564
+jp_roadsigns_1065.jpg,Other_dangers,0.89,438,277,635,476
+jp_roadsigns_1065.jpg,No_bicycles,0.77,229,157,389,321
+jp_roadsigns_1065.jpg,Dangerous_wind_gusts,0.73,14,37,213,234
+jp_roadsigns_1065.jpg,Straight_ahead_or_right_turn,0.57,861,518,1049,711

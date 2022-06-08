@@ -1,6 +1,6 @@
 id, class, count
-1,No_right_turn_crossing,1
-2,Bicycles_and_pedestrians_only,1
-3,Road_closed_to_vehicles,1
-4,Dangerous_wind_gusts,1
-5,Traffic_light_ahead,1
+1,Bicycles_and_pedestrians_only,1
+2,No_right_turn_crossing,1
+3,Traffic_light_ahead,1
+4,Two_way_traffic_ahead,1
+5,Dangerous_wind_gusts,1

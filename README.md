@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/06/05)
+EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/06/10)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in Japan based on 
@@ -11,32 +11,47 @@ EfficientDet-Japanese-RoadSigns</a>.
 Modified to use the TFRecord_Japanese-RoadSigns-90classes_V2.1 in
 <a href="https://drive.google.com/drive/folders/1jLK8xfoYydK47q8nomsqCjzDhyg2Npvd?usp=sharing">Japanese_RoadSigns_90classes_V5</a>
 <br>
-<h3>
-1. Installing tensorflow on Windows10
-</h3>
-We use Python 3.8.10 to run tensoflow 2.4.2 on Windows10.<br>
-At first, please install <a href="https://visualstudio.microsoft.com/ja/vs/community/">Microsoft Visual Studio Community</a>, which can be used to compile source code of 
+Modified to use tensorflow 2.7.1 on Windows11 (2022/06/10)<br>
+
+<h2>
+1. Installing tensorflow on Windows11
+</h2>
+We use Python 3.8.10 to run tensoflow 2.7.1 on Windows11.<br>
+<h3>1.1 Install Microsoft Visual Studio Community</h3>
+Please install <a href="https://visualstudio.microsoft.com/ja/vs/community/">Microsoft Visual Studio Community</a>, 
+which can be used to compile source code of 
 <a href="https://github.com/cocodataset/cocoapi">cocoapi</a> for PythonAPI.<br>
-Subsequently, please create a working folder "c:\google" folder for your repository, and install the python packages.<br>
+<h3>1.2 Create a python virtualenv </h3>
+Please run the following command to create a python virtualenv of name <b>py38-efficientdet</b>.
+<pre>
+>cd c:\
+>python38\python.exe -m venv py38-efficientdet
+>cd c:\py38-efficientdet
+>./scripts/activate
+</pre>
+<h3>1.3 Create a working folder </h3>
+Please create a working folder "c:\google" for your repository, and install the python packages.<br>
 
 <pre>
 >mkdir c:\google
 >cd    c:\google
->pip install -r requirements.txt
+>pip install cython
 >git clone https://github.com/cocodataset/cocoapi
 >cd cocoapi/PythonAPI
 </pre>
-You have to modify extra_compiler_args in setup.py in the following way:<br>
-   extra_compile_args=[],
+You have to modify extra_compiler_args in setup.py in the following way:
+<pre>
+   extra_compile_args=[]
+</pre>
 <pre>
 >python setup.py build_ext install
 </pre>
 
 <br>
-<br>
-<h3>
+<h2>
 2. Installing EfficientDet-Realistic-Japanese-RoadSigns
-</h3>
+</h2>
+<h3>2.1 Clone repository</h3>
 Please clone EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes.git in the working folder <b>c:\google</b>.<br>
 <pre>
 >git clone https://github.com/atlan-antillia/EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes.git<br>
@@ -53,8 +68,16 @@ EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes
         ├─realistic_test_dataset
         └─realistic_test_dataset_outputs
 </pre>
+<h3>2.2 Install python packages</h3>
+
+Please run the following command to install python packages for this project.<br>
+<pre>
+>cd ./EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes
+>pip install -r requirements.txt
+</pre>
+
 <br>
-<b>Note:</b><br>
+<h3>2.3 Download TFRecord dataset</h3>
 You can download TFRecord_Japanese-RoadSigns-90classes_V2.1 from
 <a href="https://drive.google.com/drive/folders/1jLK8xfoYydK47q8nomsqCjzDhyg2Npvd?usp=sharing">Japanese_RoadSigns_90classes_V5</a>
 <br>
@@ -68,6 +91,41 @@ The downloaded train and valid dataset must be placed in ./projects/Japanese_Roa
         └─valid
 </pre>
 <br>
+
+<h3>2.4 Workarounds for Windows</h3>
+As you know or may not know, the efficientdet of training a model and creating a saved_model do not 
+run well on Windows environment in case of tensorflow 2.7.1(probably after the version 2.5.0) as shown below:. 
+<pre>
+INFO:tensorflow:Saving checkpoints for 0 into ./models\model.ckpt.
+I0609 06:22:50.961521  3404 basic_session_run_hooks.py:634] Saving checkpoints for 0 into ./models\model.ckpt.
+2022-06-09 06:22:52.780440: W tensorflow/core/framework/op_kernel.cc:1745] OP_REQUIRES failed at save_restore_v2_ops.cc:110 :
+ NOT_FOUND: Failed to create a NewWriteableFile: ./models\model.ckpt-0_temp\part-00000-of-00001.data-00000-of-00001.tempstate8184773265919876648 :
+</pre>
+
+The real problem seems to happen in the original <b> save_restore_v2_ops.cc</b>. The simple workarounds to the issues are 
+to modify the following tensorflow/python scripts in your virutalenv folder. 
+<pre>
+c:\py38-efficientdet\Lib\site-packages\tensorflow\python\training
+ +- basic_session_run_hooks.py
+ 
+634    logging.info("Saving checkpoints for %d into %s.", step, self._save_path)
+635    ### <workaround date="2022/06/10" os="Windows">
+636    temp_dir = self._save_path + "-" + str(step) + "_temp"
+637    os.makedirs(temp_dir, exist_ok=True)
+638    #### </workaround>
+</pre>
+
+<pre>
+c:\py38-efficientdet\Lib\site-packages\tensorflow\python\saved_model
+ +- builder_impl.py
+
+595    variables_path = saved_model_utils.get_variables_path(self._export_dir)
+596    ### <workaround date="2022/06/10" os="Windows"> 
+597    temp_dir = self._export_dir + "/variables/variables_temp"
+598    os.makedirs(temp_dir, exist_ok=True)    
+599    ### </workaround>
+</pre>
+
 
 <h3>3. Inspect tfrecord</h3>
  Move to ./projects/Japanese_RoadSigns directory, and run the following bat file:<br>
@@ -296,16 +354,16 @@ python ../../ModelTrainer.py ^
 <br>
 <br>
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/coco_metrics_v2.1_at_ecpoch49.png" width="1024" height="auto">
+<img src="./asset/cocometric_train_console_output_V2.1_at_epoch50.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/Japanese_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_v2.1_at_ecpoch49.png" width="1024" height="auto">
+<img src="./asset/train_losses_v2.1_at_ecpoch50.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_v2.1_at_ecpoch49.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_v2.1_at_ecpoch50.png" width="1024" height="auto">
 <br>
 
 <h3>

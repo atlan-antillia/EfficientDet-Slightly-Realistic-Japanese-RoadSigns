@@ -1,5 +1,6 @@
 id, class, count
-1,Maximum_speed_limit30km,1
-2,Series_of_curves_to_the_left,1
-3,Falling_rocks,1
-4,Turn_left_or_right,1
+1,Directions_indicator,1
+2,Restriction_ends,1
+3,Series_of_curves_to_the_left,1
+4,Maximum_speed_limit30km,1
+5,Falling_rocks,1

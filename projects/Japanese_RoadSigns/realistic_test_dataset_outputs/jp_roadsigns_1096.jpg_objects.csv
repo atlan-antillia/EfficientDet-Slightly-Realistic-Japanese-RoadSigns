@@ -1,7 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1096.jpg,No_vehicles_except_motorcycles,0.57,857,517,1052,714
-jp_roadsigns_1096.jpg,Left_lane_ends,0.51,229,158,390,322
-jp_roadsigns_1096.jpg,Crossroads,0.47,16,32,407,307
-jp_roadsigns_1096.jpg,Maximum_speed_limit80km,0.45,647,395,843,593
-jp_roadsigns_1096.jpg,Crossroads,0.43,15,41,214,235
-jp_roadsigns_1096.jpg,Restricted_zone,0.43,442,277,632,338
+jp_roadsigns_1096.jpg,No_pedestrian_crossing,0.48,858,518,1053,715
+jp_roadsigns_1096.jpg,Rotary,0.46,16,39,214,235
+jp_roadsigns_1096.jpg,Right_turn,0.43,227,159,392,321

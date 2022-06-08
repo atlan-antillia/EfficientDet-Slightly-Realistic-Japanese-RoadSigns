@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1081.jpg,Directions_indicator,0.97,16,38,213,236
-jp_roadsigns_1081.jpg,Directions_indicator,0.96,229,156,423,354
-jp_roadsigns_1081.jpg,No_overtaking,0.94,859,517,1019,679
-jp_roadsigns_1081.jpg,Dangerous_wind_gusts,0.89,439,280,603,442
-jp_roadsigns_1081.jpg,Turn_left_or_right,0.59,650,398,846,597
+jp_roadsigns_1081.jpg,Directions_indicator,0.99,228,156,422,354
+jp_roadsigns_1081.jpg,No_overtaking,0.89,859,517,1020,679
+jp_roadsigns_1081.jpg,Directions_indicator,0.81,16,39,213,236
+jp_roadsigns_1081.jpg,Dangerous_wind_gusts,0.76,441,276,603,440
+jp_roadsigns_1081.jpg,Turn_right,0.67,649,398,845,598
