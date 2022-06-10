@@ -1,5 +1,6 @@
 id, class, count
-1,No_large_trucks,2
-2,Bumpy_road,1
+1,Dangerous_wind_gusts,1
+2,No_vehicles_except_motorcycles,1
 3,No_twoperson_motorcycles,1
 4,Stop_line,1
+5,No_large_trucks,1

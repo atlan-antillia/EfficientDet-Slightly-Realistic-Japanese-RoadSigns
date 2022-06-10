@@ -1,6 +1,6 @@
 id, class, count
-1,Rotary,1
-2,No_entry_for_vehicles,1
-3,No_pedestrian_crossing,1
-4,Directions_indicator,1
-5,Closed_to_pedestrians,1
+1,No_pedestrian_crossing,1
+2,Rotary,1
+3,No_entry_for_vehicles,1
+4,Series_of_curves_to_the_right,1
+5,Go_straight,1

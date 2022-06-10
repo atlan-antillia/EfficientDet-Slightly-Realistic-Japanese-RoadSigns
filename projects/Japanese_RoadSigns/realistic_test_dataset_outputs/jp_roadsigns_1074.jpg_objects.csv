@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1074.jpg,Crossroads,0.99,14,38,215,237
-jp_roadsigns_1074.jpg,Dangerous_wind_gusts,0.89,647,399,810,562
-jp_roadsigns_1074.jpg,Series_of_curves_to_the_left,0.78,227,158,426,356
-jp_roadsigns_1074.jpg,Slow_down,0.66,441,281,560,399
+jp_roadsigns_1074.jpg,Crossroads,0.99,15,39,215,236
+jp_roadsigns_1074.jpg,Series_of_curves_to_the_left,0.93,227,159,424,356
+jp_roadsigns_1074.jpg,Dangerous_wind_gusts,0.84,647,398,813,562
+jp_roadsigns_1074.jpg,Maximum_speed_limit30km,0.61,442,280,560,398
+jp_roadsigns_1074.jpg,Traffic_light_ahead,0.58,858,517,1057,715

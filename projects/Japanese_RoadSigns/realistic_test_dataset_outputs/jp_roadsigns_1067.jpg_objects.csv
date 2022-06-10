@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1067.jpg,Rotary,0.95,650,399,845,596
-jp_roadsigns_1067.jpg,No_entry_for_vehicles,0.9,228,157,392,323
-jp_roadsigns_1067.jpg,No_pedestrian_crossing,0.88,857,516,1051,715
-jp_roadsigns_1067.jpg,Directions_indicator,0.7,14,40,182,204
-jp_roadsigns_1067.jpg,Closed_to_pedestrians,0.67,439,275,636,476
+jp_roadsigns_1067.jpg,No_pedestrian_crossing,0.93,859,516,1052,713
+jp_roadsigns_1067.jpg,Rotary,0.93,650,397,847,596
+jp_roadsigns_1067.jpg,No_entry_for_vehicles,0.92,226,158,392,323
+jp_roadsigns_1067.jpg,Series_of_curves_to_the_right,0.79,13,40,183,204
+jp_roadsigns_1067.jpg,Go_straight,0.62,438,276,635,474

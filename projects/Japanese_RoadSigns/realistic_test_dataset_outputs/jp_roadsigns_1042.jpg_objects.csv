@@ -1,5 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1042.jpg,Maximum_speed_limit30km,0.92,17,39,141,162
-jp_roadsigns_1042.jpg,Two_stage_right_turn_for_mopeds,0.83,647,397,840,592
-jp_roadsigns_1042.jpg,Stopping_allowed,0.73,860,520,1018,681
-jp_roadsigns_1042.jpg,Straight_ahead_or_right_turn,0.6,228,159,392,323
+jp_roadsigns_1042.jpg,Maximum_speed_limit30km,0.89,16,39,140,161
+jp_roadsigns_1042.jpg,Series_of_curves_to_the_left,0.6,648,397,841,590

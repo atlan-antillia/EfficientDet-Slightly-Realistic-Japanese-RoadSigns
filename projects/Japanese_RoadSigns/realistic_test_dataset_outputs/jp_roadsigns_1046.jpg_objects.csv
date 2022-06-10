@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1046.jpg,Two_stage_right_turn_for_mopeds,0.98,646,396,842,595
-jp_roadsigns_1046.jpg,Sound_horn,0.88,859,517,1056,715
-jp_roadsigns_1046.jpg,Series_of_curves_to_the_right,0.86,437,277,602,440
-jp_roadsigns_1046.jpg,Maximum_speed_limit30km,0.81,17,37,142,164
-jp_roadsigns_1046.jpg,Turn_right,0.49,229,158,425,356
+jp_roadsigns_1046.jpg,Two_stage_right_turn_for_mopeds,0.99,647,396,842,595
+jp_roadsigns_1046.jpg,Maximum_speed_limit30km,0.91,16,38,142,164
+jp_roadsigns_1046.jpg,Series_of_curves_to_the_right,0.89,438,278,600,440
+jp_roadsigns_1046.jpg,Sound_horn,0.81,858,517,1055,717

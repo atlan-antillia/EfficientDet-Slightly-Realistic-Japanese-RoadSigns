@@ -1,5 +1,6 @@
 id, class, count
 1,Steep_ascent10%,1
 2,Traffic_light_ahead,1
-3,Pedestrians_only,1
-4,Dangerous_wind_gusts,2
+3,Slippery_road,1
+4,Pedestrians_only,1
+5,Dangerous_wind_gusts,1

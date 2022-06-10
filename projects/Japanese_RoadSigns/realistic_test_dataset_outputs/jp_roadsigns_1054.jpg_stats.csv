@@ -1,5 +1,6 @@
 id, class, count
-1,Straight_ahead_or_right_turn,1
+1,One_way_to_the_right,1
 2,Falling_rocks,1
-3,One_way_to_the_right,1
-4,Dangerous_wind_gusts,1
+3,Straight_ahead_or_right_turn,1
+4,No_overtaking,1
+5,Maximum_speed_limit30km,1

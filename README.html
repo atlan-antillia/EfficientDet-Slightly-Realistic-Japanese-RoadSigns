@@ -8,11 +8,16 @@ This is a slightly realistic project to train and detect RoadSigns in Japan base
 Please also refer to our experimental project <a href="https://github.com/atlan-antillia/EfficientDet-Japanese-RoadSigns">
 EfficientDet-Japanese-RoadSigns</a>.
 <br>
+<li>
 Modified to use the TFRecord_Japanese-RoadSigns-90classes_V2.1 in
 <a href="https://drive.google.com/drive/folders/1jLK8xfoYydK47q8nomsqCjzDhyg2Npvd?usp=sharing">Japanese_RoadSigns_90classes_V5</a>
-<br>
-Modified to use tensorflow 2.7.1 on Windows11 (2022/06/10)<br>
-
+</li>
+<li>
+Modified to use tensorflow 2.7.1 on Windows11. (2022/06/10)<br>
+</li>
+<li>
+Modified to use the latest <a href="https://github.com/google/automl/tree/master/efficientdet">google/automl/efficientdet</a>.(2022/06/10)<br>
+</li>
 <h2>
 1. Installing tensorflow on Windows11
 </h2>
@@ -186,7 +191,7 @@ python ../../ModelTrainer.py ^
   --eval_batch_size=1 ^
   --eval_samples=500  ^
   --num_examples_per_epoch=1000 ^
-  --num_epochs=50
+  --num_epochs=100
 </pre>
 
 <table style="border: 1px solid #000;">
@@ -252,7 +257,7 @@ python ../../ModelTrainer.py ^
 </tr>
 <tr>
 <td>
---num_epochs</td><td>50</td>
+--num_epochs</td><td>100</td>
 </tr>
 </table>
 <br>
@@ -351,19 +356,22 @@ python ../../ModelTrainer.py ^
 90: 'Y_junction'
 </pre>
 <br>
+<b>Console output COCO meticss f and map at epoch 56</a></b><br>
+<img src="./asset/cocometric_train_console_output_V2.1_at_epoch56.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/cocometric_train_console_output_V2.1_at_epoch50.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_f_map_v2.1_at_ecpoch56.png" width="1024" height="auto">
 <br>
 <br>
+
 <b><a href="./projects/Japanese_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_v2.1_at_ecpoch50.png" width="1024" height="auto">
+<img src="./asset/train_losses_v2.1_at_ecpoch56.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_v2.1_at_ecpoch50.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_v2.1_at_ecpoch56.png" width="1024" height="auto">
 <br>
 
 <h3>

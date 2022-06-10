@@ -1,6 +1,5 @@
 id, class, count
 1,No_large_trucks,1
-2,Traffic_light_ahead,1
+2,Maximum_speed_limit30km,2
 3,Series_of_curves_to_the_left,1
-4,Two_way_traffic_ahead,1
-5,Maximum_speed_limit30km,1
+4,Traffic_light_ahead,1

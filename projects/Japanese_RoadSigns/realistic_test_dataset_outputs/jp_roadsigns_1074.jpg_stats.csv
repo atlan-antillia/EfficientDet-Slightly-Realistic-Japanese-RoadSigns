@@ -1,5 +1,6 @@
 id, class, count
 1,Crossroads,1
-2,Dangerous_wind_gusts,1
-3,Series_of_curves_to_the_left,1
-4,Slow_down,1
+2,Series_of_curves_to_the_left,1
+3,Dangerous_wind_gusts,1
+4,Maximum_speed_limit30km,1
+5,Traffic_light_ahead,1

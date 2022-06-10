@@ -15,4 +15,4 @@ python ../../ModelTrainer.py ^
   --eval_batch_size=1 ^
   --eval_samples=500  ^
   --num_examples_per_epoch=1000 ^
-  --num_epochs=50
+  --num_epochs=100

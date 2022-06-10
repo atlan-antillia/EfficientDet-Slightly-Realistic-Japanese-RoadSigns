@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1043.jpg,Merging_traffic_ahead,0.88,15,38,212,234
-jp_roadsigns_1043.jpg,Left_curve,0.87,438,275,602,439
-jp_roadsigns_1043.jpg,Turn_right,0.58,226,160,393,321
-jp_roadsigns_1043.jpg,Restricted_parking,0.54,649,396,845,598
-jp_roadsigns_1043.jpg,One_way_to_the_right,0.4,858,518,1020,614
+jp_roadsigns_1043.jpg,One_way_to_the_right,0.95,861,520,1019,614
+jp_roadsigns_1043.jpg,Directions_indicator,0.8,15,38,213,233
+jp_roadsigns_1043.jpg,Left_curve,0.72,438,275,602,439
+jp_roadsigns_1043.jpg,Turn_right,0.69,226,159,392,326
+jp_roadsigns_1043.jpg,Left_turn,0.5,650,396,846,597

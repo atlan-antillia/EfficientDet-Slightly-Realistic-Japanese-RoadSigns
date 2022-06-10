@@ -1,6 +1,6 @@
 id, class, count
 1,Stop_line,1
 2,Slow_down,1
-3,No_u_turns,1
-4,Left_turn,1
-5,No_large_trucks,1
+3,Left_turn,1
+4,No_u_turns,1
+5,Dangerous_wind_gusts,1

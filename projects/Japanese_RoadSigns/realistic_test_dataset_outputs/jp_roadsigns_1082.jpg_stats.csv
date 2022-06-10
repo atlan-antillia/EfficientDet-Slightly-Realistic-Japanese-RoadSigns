@@ -1,6 +1,6 @@
 id, class, count
-1,Center_line,1
-2,Right_curve,1
-3,No_pedestrian_crossing,1
-4,Traffic_light_ahead,1
-5,Restriction_begins,1
+1,Right_curve,1
+2,Keep_left,1
+3,Turn_right,1
+4,No_pedestrian_crossing,1
+5,Restriction_ends,1

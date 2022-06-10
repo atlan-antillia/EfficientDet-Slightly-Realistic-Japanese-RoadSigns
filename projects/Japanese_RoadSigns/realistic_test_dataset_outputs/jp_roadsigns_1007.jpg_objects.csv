@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1007.jpg,Bumpy_road,0.95,14,35,181,199
-jp_roadsigns_1007.jpg,Slippery_road,0.59,856,515,1023,683
-jp_roadsigns_1007.jpg,Slow_down,0.51,652,400,793,544
-jp_roadsigns_1007.jpg,Maximum_speed_limit30km,0.43,439,277,562,402
+jp_roadsigns_1007.jpg,Bumpy_road,0.94,11,35,179,200
+jp_roadsigns_1007.jpg,No_overtaking,0.94,856,517,1023,685
+jp_roadsigns_1007.jpg,Maximum_speed_limit30km,0.84,440,278,561,402
+jp_roadsigns_1007.jpg,Restriction_begins,0.68,234,158,426,220
+jp_roadsigns_1007.jpg,Two_way_traffic_ahead,0.45,650,399,793,545
