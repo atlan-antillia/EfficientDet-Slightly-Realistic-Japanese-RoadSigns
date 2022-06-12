@@ -20,6 +20,8 @@
 # coco_prdiction_to_test_dataset.jscon and
 # coco_ground_truth_to_test_dataset.json   
 
+# 2022/06/05 Updated to write coco_metrics(f, map, mar) to prediction_f_map_mar.csv.
+
 import os
 import sys
 import traceback
@@ -45,34 +47,31 @@ class PredictionCOCOEvaluator:
     # coco_prdiction_to_test_dataset.jscon
     prediction = all_predictions_dir + "/all_prediction.json"
            
-    output_filepath = os.path.join(output_dir, "prediction_map.csv")
+    output_filepath = os.path.join(output_dir, "prediction_f_map_mar.csv")
   
     SEP = ","
     NL  = "\n"
-    HEADER = "prediction, map" + NL
+    HEADER = "f, map, mar" + NL
 
-    with open(output_filepath, "w") as f:
-      f.writelines(HEADER)
-      evaluation = {}
+    with open(output_filepath, "w") as csv_file:
+      csv_file.writelines(HEADER)
           
       with open(prediction, mode='rt', encoding='utf-8') as file:
         data = json.load(file)   
         pred = data['predictions']     
-        map, detail = self.summarize(pred, annotations_file, self.image_list)
-        map   = round(map, 3)
-        print("=== prediction {} map {}".format(prediction, map))
-        #print(detail)
-        pred_base = os.path.basename(prediction)
-        evaluation[str(pred_base)] = map
+        #map, stats, detail = self.summarize(pred, annotations_file, self.image_list)
+        cocoEval = self.summarize(pred, annotations_file, self.image_list)
 
-      print("--- evaluation {}".format(evaluation))
-      evaluation_sorted = sorted(evaluation.items(), key=lambda x:x[0])
-      print("--- evaluation_sorted {}".format(evaluation_sorted))
-
-      for item in evaluation_sorted:
-        (name, value) = item
-        line = str(name) + SEP + str(value) + NL
-        f.writelines(line)
+        map  = cocoEval.stats[0].item()  # (AP) @[ IoU=0.50:0.95
+        map  = round(map, 3)
+        mar  = cocoEval.stats[6].item()  # (AR) @[ IoU=0.50:0.95
+        mar  = round(mar, 3)        
+        f    = 2.0*map*mar/(map+mar)
+        f    = round(f, 3)
+        print("=== prediction {} f: {}  map: {}  mar: {}".format(prediction, f, map, mar))
+        line = str(f) + SEP + str(map) + SEP + str(mar)
+        print("--- line {}".format(line))
+        csv_file.writelines(line + NL)
 
   # https://www.programcreek.com/python/example/88588/pycocotools.cocoeval.COCOeval
   # Example 1
@@ -116,7 +115,7 @@ class PredictionCOCOEvaluator:
     print("{}".format(detail))
     #for stats in cocoEval.stats:
     #  print("-- {}".format(stats.item()))
-    return mean_ap, detail 
+    return cocoEval #l 
   
 """
 Usage:
