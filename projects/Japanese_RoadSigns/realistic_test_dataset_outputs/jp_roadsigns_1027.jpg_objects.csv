@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1027.jpg,Pedesrtrian_crossing,0.76,226,162,399,349
-jp_roadsigns_1027.jpg,Falling_rocks,0.73,17,39,213,234
-jp_roadsigns_1027.jpg,Maximum_speed_limit30km,0.65,861,520,979,638
-jp_roadsigns_1027.jpg,No_twoperson_motorcycles,0.61,438,277,633,474
-jp_roadsigns_1027.jpg,Maximum_speed_limit30km,0.43,650,400,772,521
+jp_roadsigns_1027.jpg,Falling_rocks,0.92,17,38,213,233
+jp_roadsigns_1027.jpg,No_vehicles_carrying_dangerous_goods,0.92,438,276,633,474
+jp_roadsigns_1027.jpg,Straight_ahead_or_right_turn,0.86,226,161,397,348
+jp_roadsigns_1027.jpg,Left_turn,0.41,650,400,772,520

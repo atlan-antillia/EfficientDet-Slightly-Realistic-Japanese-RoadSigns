@@ -1,5 +1,5 @@
 id, class, count
 1,Sound_horn,1
-2,Series_of_curves_to_the_left,1
-3,Series_of_curves_to_the_right,1
-4,Left_lane_ends,1
+2,Series_of_curves_to_the_right,2
+3,Left_lane_ends,1
+4,Series_of_curves_to_the_left,1

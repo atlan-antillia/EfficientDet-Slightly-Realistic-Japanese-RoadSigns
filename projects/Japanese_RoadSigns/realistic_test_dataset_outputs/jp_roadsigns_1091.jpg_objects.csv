@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1091.jpg,No_large_trucks,0.93,13,38,180,201
-jp_roadsigns_1091.jpg,Maximum_speed_limit30km,0.66,860,520,981,641
-jp_roadsigns_1091.jpg,Series_of_curves_to_the_left,0.63,437,279,601,442
-jp_roadsigns_1091.jpg,Maximum_speed_limit30km,0.59,650,399,791,542
-jp_roadsigns_1091.jpg,Traffic_light_ahead,0.49,229,158,424,355
+jp_roadsigns_1091.jpg,No_large_trucks,0.94,13,36,179,201
+jp_roadsigns_1091.jpg,Traffic_light_ahead,0.94,230,158,425,355
+jp_roadsigns_1091.jpg,Series_of_curves_to_the_right,0.63,438,278,603,441
+jp_roadsigns_1091.jpg,Maximum_speed_limit30km,0.52,861,520,980,642

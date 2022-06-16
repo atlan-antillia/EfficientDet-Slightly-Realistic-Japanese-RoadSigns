@@ -1,5 +1,5 @@
 id, class, count
-1,Straight_ahead_or_left_turn,1
-2,Series_of_curves_to_the_right,1
-3,Steep_ascent10%,1
-4,Road_closed_to_all,2
+1,Series_of_curves_to_the_right,1
+2,Straight_ahead_or_left_turn,1
+3,Stopping_allowed,1
+4,Road_closed_to_all,1

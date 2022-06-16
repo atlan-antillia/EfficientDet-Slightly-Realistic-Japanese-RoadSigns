@@ -1,6 +1,6 @@
 id, class, count
-1,Sound_horn,1
-2,No_motorless_vehicle_except_bicycle,1
+1,No_motorless_vehicle_except_bicycle,1
+2,Sound_horn,1
 3,Pedestrians_only,1
-4,Dangerous_wind_gusts,1
-5,Left_lane_ends,1
+4,Turn_left,1
+5,Series_of_curves_to_the_right,1

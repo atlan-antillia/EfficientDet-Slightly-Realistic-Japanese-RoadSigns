@@ -1,4 +1,5 @@
 id, class, count
 1,Straight_ahead_or_left_turn,1
 2,Turn_right,1
-3,Left_turn,1
+3,Bicycles_only,1
+4,Restriction_ends,1

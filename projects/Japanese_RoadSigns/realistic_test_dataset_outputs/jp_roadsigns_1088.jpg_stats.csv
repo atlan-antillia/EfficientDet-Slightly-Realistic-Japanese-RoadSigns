@@ -1,6 +1,6 @@
 id, class, count
-1,Dangerous_wind_gusts,1
-2,Bumpy_road,1
-3,Directions_indicator,1
-4,Stop_line,1
-5,Roundabout,1
+1,Bumpy_road,1
+2,Dangerous_wind_gusts,1
+3,Stopping_allowed,1
+4,Directions_indicator,1
+5,Traffic_light_ahead,1

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1037.jpg,Merging_traffic_ahead,0.99,16,39,214,235
-jp_roadsigns_1037.jpg,No_overtaking,0.98,649,394,843,594
-jp_roadsigns_1037.jpg,No_vehicles_carrying_dangerous_goods,0.96,230,156,426,356
-jp_roadsigns_1037.jpg,Straight_ahead_or_right_turn,0.7,439,279,600,441
-jp_roadsigns_1037.jpg,Slow_down,0.4,857,517,1020,681
+jp_roadsigns_1037.jpg,Merging_traffic_ahead,0.99,16,36,216,234
+jp_roadsigns_1037.jpg,No_vehicles_carrying_dangerous_goods,0.98,228,156,426,357
+jp_roadsigns_1037.jpg,No_overtaking,0.96,648,394,842,594
+jp_roadsigns_1037.jpg,Straight_ahead_or_right_turn,0.82,439,279,600,440
+jp_roadsigns_1037.jpg,No_pedestrian_crossing,0.62,857,517,1020,681

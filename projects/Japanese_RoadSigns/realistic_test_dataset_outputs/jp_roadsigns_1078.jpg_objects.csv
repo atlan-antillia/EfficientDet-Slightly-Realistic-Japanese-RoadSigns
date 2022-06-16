@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1078.jpg,Train_crossing,0.98,649,399,846,595
-jp_roadsigns_1078.jpg,Maximum_speed_limit30km,0.67,442,281,559,400
-jp_roadsigns_1078.jpg,Stopping_allowed,0.65,855,520,1022,683
-jp_roadsigns_1078.jpg,Stop_line,0.64,18,36,182,200
+jp_roadsigns_1078.jpg,Train_crossing,0.98,649,399,846,594
+jp_roadsigns_1078.jpg,Stop_line,0.79,15,41,181,201
+jp_roadsigns_1078.jpg,Roadworks,0.77,857,518,1023,682
+jp_roadsigns_1078.jpg,Left_turn,0.51,442,280,560,399

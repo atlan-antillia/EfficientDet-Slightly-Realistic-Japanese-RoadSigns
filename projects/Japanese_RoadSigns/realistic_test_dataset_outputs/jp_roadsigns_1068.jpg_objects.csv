@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1068.jpg,Sound_horn,0.96,648,395,815,563
-jp_roadsigns_1068.jpg,Series_of_curves_to_the_left,0.88,228,155,421,354
-jp_roadsigns_1068.jpg,Series_of_curves_to_the_right,0.88,435,278,601,442
-jp_roadsigns_1068.jpg,Left_lane_ends,0.64,16,37,183,202
+jp_roadsigns_1068.jpg,Sound_horn,0.97,647,396,814,564
+jp_roadsigns_1068.jpg,Series_of_curves_to_the_right,0.89,436,277,602,442
+jp_roadsigns_1068.jpg,Left_lane_ends,0.76,15,38,183,201
+jp_roadsigns_1068.jpg,Series_of_curves_to_the_left,0.76,228,154,422,354
+jp_roadsigns_1068.jpg,Series_of_curves_to_the_right,0.74,857,518,1021,682

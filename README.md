@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/06/10)
+EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/06/16)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in Japan based on 
@@ -13,7 +13,7 @@ Modified to use the TFRecord_Japanese-RoadSigns-90classes_V2.1 in
 <a href="https://drive.google.com/drive/folders/1jLK8xfoYydK47q8nomsqCjzDhyg2Npvd?usp=sharing">Japanese_RoadSigns_90classes_V5</a>
 </li>
 <li>
-Modified to use tensorflow 2.7.1 on Windows11. (2022/06/10)<br>
+Modified to use tensorflow 2.8.0 on Windows11. (2022/06/16)<br>
 </li>
 <li>
 Modified to use the latest <a href="https://github.com/google/automl/tree/master/efficientdet">google/automl/efficientdet</a>.(2022/06/10)<br>
@@ -21,7 +21,7 @@ Modified to use the latest <a href="https://github.com/google/automl/tree/master
 <h2>
 1. Installing tensorflow on Windows11
 </h2>
-We use Python 3.8.10 to run tensoflow 2.7.1 on Windows11.<br>
+We use Python 3.8.10 to run tensoflow 2.8.0 on Windows11.<br>
 <h3>1.1 Install Microsoft Visual Studio Community</h3>
 Please install <a href="https://visualstudio.microsoft.com/ja/vs/community/">Microsoft Visual Studio Community</a>, 
 which can be used to compile source code of 
@@ -99,7 +99,7 @@ The downloaded train and valid dataset must be placed in ./projects/Japanese_Roa
 
 <h3>2.4 Workarounds for Windows</h3>
 As you know or may not know, the efficientdet scripts of training a model and creating a saved_model do not 
-run well on Windows environment in case of tensorflow 2.7.1(probably after the version 2.5.0) as shown below:. 
+run well on Windows environment in case of tensorflow 2.8.0(probably after the version 2.5.0) as shown below:. 
 <pre>
 INFO:tensorflow:Saving checkpoints for 0 into ./models\model.ckpt.
 I0609 06:22:50.961521  3404 basic_session_run_hooks.py:634] Saving checkpoints for 0 into ./models\model.ckpt.
@@ -114,10 +114,10 @@ c:\py38-efficientdet\Lib\site-packages\tensorflow\python\training
  +- basic_session_run_hooks.py
  
 634    logging.info("Saving checkpoints for %d into %s.", step, self._save_path)
-635    ### <workaround date="2022/06/10" os="Windows">
+635    ### start workaround date="2022/06/10" os="Windows"
 636    temp_dir = self._save_path + "-" + str(step) + "_temp"
 637    os.makedirs(temp_dir, exist_ok=True)
-638    #### </workaround>
+638    #### end workaround
 </pre>
 
 <pre>
@@ -125,10 +125,10 @@ c:\py38-efficientdet\Lib\site-packages\tensorflow\python\saved_model
  +- builder_impl.py
 
 595    variables_path = saved_model_utils.get_variables_path(self._export_dir)
-596    ### <workaround date="2022/06/10" os="Windows"> 
+596    ### start workaround date="2022/06/10" os="Windows" 
 597    temp_dir = self._export_dir + "/variables/variables_temp"
 598    os.makedirs(temp_dir, exist_ok=True)    
-599    ### </workaround>
+599    ### end workaround
 </pre>
 
 
@@ -356,22 +356,22 @@ python ../../ModelTrainer.py ^
 90: 'Y_junction'
 </pre>
 <br>
-<b>Console output COCO meticss f and map at epoch 56</a></b><br>
-<img src="./asset/cocometric_train_console_output_V2.1_at_epoch56.png" width="1024" height="auto">
+<b>Console output COCO meticss f and map at epoch 62</a></b><br>
+<img src="./asset/cocometric_train_console_output_V2.1_at_epoch62.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/coco_metrics_f_map_v2.1_at_ecpoch56.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_f_map_v2.1_at_ecpoch62.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_v2.1_at_ecpoch56.png" width="1024" height="auto">
+<img src="./asset/train_losses_v2.1_at_ecpoch62.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_v2.1_at_ecpoch56.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_v2.1_at_ecpoch62.png" width="1024" height="auto">
 <br>
 
 <h3>
@@ -515,7 +515,7 @@ The 3_inference.bat computes also the COCO metrics(f, map, mar) file to the real
 
 <a href="./projects/Japanese_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 <br>
-<img src="./asset/cocometric_ap_for_test_dataset_V2.1.png" width="740" height="auto"><br>
+<img src="./asset/cocometric_ap_for_test_dataset_V2.1_by_epoch62.png" width="740" height="auto"><br>
 
 
  
