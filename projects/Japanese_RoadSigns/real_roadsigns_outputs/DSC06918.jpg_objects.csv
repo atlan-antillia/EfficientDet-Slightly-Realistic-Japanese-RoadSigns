@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC06918.jpg,Stop,0.86,769,189,965,359

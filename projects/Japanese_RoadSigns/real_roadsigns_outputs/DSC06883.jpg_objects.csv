@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC06883.jpg,Pedesrtrian_crossing,0.96,627,286,741,428
+DSC06883.jpg,Maximum_speed_limit50km,0.48,330,262,421,371

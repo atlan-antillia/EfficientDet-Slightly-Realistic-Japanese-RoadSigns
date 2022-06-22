@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1020.jpg,No_stopping,0.99,438,275,637,478
-jp_roadsigns_1020.jpg,No_overtaking,0.99,229,155,428,358
-jp_roadsigns_1020.jpg,Stopping_allowed,0.77,859,518,970,714
-jp_roadsigns_1020.jpg,Bicycles_only,0.71,15,39,187,229
-jp_roadsigns_1020.jpg,Stop_line,0.54,650,399,811,560
+jp_roadsigns_1020.jpg,Pedesrtrian_crossing,0.97,15,38,186,231
+jp_roadsigns_1020.jpg,One_way,0.96,858,519,972,713
+jp_roadsigns_1020.jpg,No_overtaking,0.95,230,157,426,357
+jp_roadsigns_1020.jpg,Safety_zone,0.92,650,400,811,562
+jp_roadsigns_1020.jpg,No_stopping,0.83,439,275,637,476

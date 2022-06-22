@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1099.jpg,Slow_down,0.99,650,400,810,540
-jp_roadsigns_1099.jpg,No_stopping,0.97,226,155,427,357
-jp_roadsigns_1099.jpg,One_way,0.88,438,279,530,441
-jp_roadsigns_1099.jpg,Crossroads,0.86,14,37,215,236
+jp_roadsigns_1099.jpg,One_way,0.99,441,280,531,438
+jp_roadsigns_1099.jpg,Crossroads,0.98,17,39,213,236
+jp_roadsigns_1099.jpg,Slow_down,0.98,648,401,810,541
+jp_roadsigns_1099.jpg,Keep_right,0.84,858,517,1055,716
+jp_roadsigns_1099.jpg,No_stopping,0.8,227,156,426,356

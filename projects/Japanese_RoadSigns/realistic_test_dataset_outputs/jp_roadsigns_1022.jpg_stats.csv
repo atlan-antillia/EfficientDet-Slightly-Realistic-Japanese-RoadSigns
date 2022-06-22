@@ -1,6 +1,5 @@
 id, class, count
-1,One_way_to_the_right,1
-2,Two_stage_right_turn_for_mopeds,1
-3,Bumpy_road,1
-4,Directions_indicator,1
-5,Series_of_curves_to_the_left,1
+1,Bumpy_road,1
+2,Directions_indicator,1
+3,One_way_to_the_right,1
+4,Left_turn,1

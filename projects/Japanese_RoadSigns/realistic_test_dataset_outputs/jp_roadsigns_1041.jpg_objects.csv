@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1041.jpg,Left_turn,0.92,226,160,391,323
-jp_roadsigns_1041.jpg,Road_narrows,0.89,858,519,1020,680
-jp_roadsigns_1041.jpg,No_right_turn_crossing,0.89,649,395,842,595
-jp_roadsigns_1041.jpg,Bicycles_only,0.74,17,38,180,201
-jp_roadsigns_1041.jpg,Straight_ahead_or_right_turn,0.66,439,278,608,468
+jp_roadsigns_1041.jpg,No_right_turn_crossing,0.89,650,396,841,591
+jp_roadsigns_1041.jpg,School_zone,0.84,21,39,180,197
+jp_roadsigns_1041.jpg,Left_turn,0.83,225,160,392,323
+jp_roadsigns_1041.jpg,School_crossing,0.83,441,278,606,468
+jp_roadsigns_1041.jpg,Road_narrows,0.81,859,518,1018,679

@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC04601.jpg,No_large_trucks,0.71,617,323,781,484
+DSC04601.jpg,Minimum_speed_limit30km,0.51,617,116,779,276

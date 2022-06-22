@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC06882.jpg,Minimum_speed_limit50km,0.43,339,146,455,285

@@ -1,6 +1,6 @@
 id, class, count
-1,Slippery_road,1
-2,Straight_ahead_or_right_turn,1
-3,No_buses,1
-4,Maximum_speed_limit30km,1
-5,Stopping_allowed,1
+1,Safety_zone,1
+2,No_buses,1
+3,Go_straight,1
+4,Minimum_speed_limit30km,1
+5,Dangerous_wind_gusts,1

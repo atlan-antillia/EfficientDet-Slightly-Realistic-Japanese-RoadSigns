@@ -1,6 +1,6 @@
 id, class, count
-1,No_overtaking,1
+1,Buses_priority,1
 2,No_bicycles,1
-3,No_motorless_vehicle_except_bicycle,1
-4,Maximum_speed_limit30km,1
-5,Two_stage_right_turn_for_mopeds,1
+3,No_overtaking,1
+4,Maximum_speed_limit80km,1
+5,No_motorless_vehicle_except_bicycle,1

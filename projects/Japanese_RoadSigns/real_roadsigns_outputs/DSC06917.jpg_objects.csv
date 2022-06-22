@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC06917.jpg,No_waiting,0.8,299,160,565,426

@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/06/18)
+EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/06/22)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in Japan based on 
@@ -18,6 +18,14 @@ Modified to use tensorflow 2.8.0 on Windows11. (2022/06/16)<br>
 <li>
 Modified to use the latest <a href="https://github.com/google/automl/tree/master/efficientdet">google/automl/efficientdet</a>.(2022/06/10)<br>
 </li>
+<li>
+Modified to use mixed-size roadsigns dataset (<b>mixed_train.tfrecord</b> and <b>mixed_valid.tfrecord</b>) to improve  
+inference accuracy to realistic_test_dataset.(2022/06/22)<br>
+</li>
+<li>
+Added real roadsigns test dataset and inference script <b>4_real_inference,bat</b> for the dataset.(2022/06/22)<br>
+</li>
+
 <h2>
 1. Installing tensorflow on Windows11
 </h2>
@@ -67,12 +75,33 @@ You can see the following folder <b>projects</b> in  EfficientDet-Japanese-RoadS
 EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes
 └─projects
     └─Japanese_RoadSigns
+        ├─configs
         ├─eval
+        ├─realistic_test_dataset
+        ├─realistic_test_dataset_outputs
+        ├─real_roadsigns
+        ├─real_roadsigns_outputs
         ├─saved_model
         │  └─variables
-        ├─realistic_test_dataset
-        └─realistic_test_dataset_outputs
+        ├─train
+        └─valid
 </pre>
+The train and valid folders contain following files:<br>
+<pre>
+ +--train
+ |   +-- mixed_train.tfrecord
+ |   +-- train.7z    
+ +--valid
+     +-- mixed_valid.tfrecord
+     +-- valid.7z    
+
+</pre>
+We have newly added the tfrecord files, <b>mixed_train.tfrecord</b> and <b>mixed_valid.tfrecord</b>,
+to improve inference accuracy to the realistic_test_dataset.<br>
+
+If you would like to retrain roadsigns efficientdet model by yourself, you have to expand train.7z in train folder and valid.7z in valid folder
+ to get the original tfrecord dataset.<br> 
+
 <h3>2.2 Install python packages</h3>
 
 Please run the following command to install python packages for this project.<br>
@@ -83,7 +112,7 @@ Please run the following command to install python packages for this project.<br
 
 <br>
 <h3>2.3 Download TFRecord dataset</h3>
-You can download TFRecord_Japanese-RoadSigns-90classes_V2.1 from
+You can also download TFRecord_Japanese-RoadSigns-90classes_V2.1 from
 <a href="https://drive.google.com/drive/folders/1jLK8xfoYydK47q8nomsqCjzDhyg2Npvd?usp=sharing">Japanese_RoadSigns_90classes_V5</a>
 <br>
 <br>
@@ -95,6 +124,7 @@ The downloaded train and valid dataset must be placed in ./projects/Japanese_Roa
         ├─train
         └─valid
 </pre>
+
 <br>
 <h3>2.4 Workarounds for Windows</h3>
 As you know or may not know, the efficientdet scripts of training a model and creating a saved_model do not 
@@ -357,22 +387,22 @@ python ../../ModelTrainer.py ^
 90: 'Y_junction'
 </pre>
 <br>
-<b>Console output COCO meticss f and map at epoch 62</a></b><br>
-<img src="./asset/cocometric_train_console_output_V2.1_at_epoch62.png" width="1024" height="auto">
+<b>Console output COCO meticss f and map at epoch 67</a></b><br>
+<img src="./asset/cocometric_train_console_output_V2.1+mixed_dataset_at_epoch67.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/coco_metrics_f_map_v2.1_at_ecpoch62.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_f_map_v2.1+mixed_dataset_at_ecpoch67.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_v2.1_at_ecpoch62.png" width="1024" height="auto">
+<img src="./asset/train_losses_v2.1+mixed_dataset_at_ecpoch67.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_v2.1_at_ecpoch62.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_v2.1+mixed_dataset_at_ecpoch67.png" width="1024" height="auto">
 <br>
 
 <h3>
@@ -516,7 +546,62 @@ The 3_inference.bat computes also the COCO metrics(f, map, mar) file to the real
 
 <a href="./projects/Japanese_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 <br>
-<img src="./asset/cocometric_ap_for_test_dataset_V2.1_by_epoch62.png" width="740" height="auto"><br>
+<img src="./asset/cocometric_ap_for_test_dataset_V2.1+mixed_dataset_by_epoch67.png" width="740" height="auto"><br>
 
 
- 
+<h3> 
+10. Inference Real RoadSigns by using the saved_model
+</h3>
+<h3>10.1 Inference real roadsigns test dataset</h3>
+ Please run the following bat file to infer the roadsigns in images of test_dataset:
+<pre>
+4_real_inference.bat
+</pre>
+, which is the folllowing:
+<pre>
+rem 4_real_inference.bat
+python ../../SavedModelInferencer.py ^
+  --runmode=saved_model_infer ^
+  --model_name=efficientdet-d0 ^
+  --saved_model_dir=./saved_model ^
+  --min_score_thresh=0.4 ^
+  --hparams="num_classes=90,label_map=./label_map.yaml" ^
+  --input_image=./real_roadsigns/*.jpg ^
+  --classes_file=./classes.txt ^
+  --ground_truth_json=./real_roadsigns/annotation.json ^
+  --output_image_dir=./real_roadsigns_outputs
+</pre>
+
+<h3>
+10.2 Some Inference results of Real Japanese RoadSigns
+</h3>
+
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04030.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04042.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04061.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04125.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04062.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04307.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04312.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04504.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04519.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04599.jpg" width="1280" height="auto"><br>
+<br>
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04608.jpg" width="1280" height="auto"><br>
+<br>
+
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC04637.jpg" width="1280" height="auto"><br>
+<br>
+
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC06868.jpg" width="1280" height="auto"><br>
+<br>
+

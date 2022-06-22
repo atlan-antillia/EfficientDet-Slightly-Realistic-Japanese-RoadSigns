@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC06001.jpg,Maximum_speed_limit80km,0.41,636,132,720,217

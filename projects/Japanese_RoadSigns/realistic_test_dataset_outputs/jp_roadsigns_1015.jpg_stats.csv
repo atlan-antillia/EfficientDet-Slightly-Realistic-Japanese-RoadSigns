@@ -1,6 +1,5 @@
 id, class, count
-1,Stop_line,1
-2,Left_curve,1
-3,Two_stage_right_turn_for_mopeds,1
-4,Stopping_allowed,1
-5,Restriction_ends,1
+1,One_way,1
+2,Stop_line,1
+3,Left_curve,1
+4,No_vehicles_wider_than2.2ms,1

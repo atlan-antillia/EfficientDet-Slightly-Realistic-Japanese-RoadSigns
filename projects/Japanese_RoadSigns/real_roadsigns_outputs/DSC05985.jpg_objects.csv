@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC05985.jpg,No_pedestrian_crossing,0.53,243,295,367,426

@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC06855.jpg,Sound_horn,0.71,580,420,746,600
+DSC06855.jpg,Minimum_speed_limit50km,0.68,580,229,744,417

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1033.jpg,Keep_right,0.99,14,35,213,235
-jp_roadsigns_1033.jpg,Go_straight,0.9,228,156,390,319
-jp_roadsigns_1033.jpg,Two_stage_right_turn_for_mopeds,0.83,437,279,598,441
-jp_roadsigns_1033.jpg,Restricted_parking,0.67,646,397,810,560
-jp_roadsigns_1033.jpg,Series_of_curves_to_the_left,0.45,858,515,1053,714
+jp_roadsigns_1033.jpg,Restricted_parking,0.97,647,396,809,559
+jp_roadsigns_1033.jpg,Keep_right,0.94,17,37,210,231
+jp_roadsigns_1033.jpg,Left_turn,0.86,856,516,1049,714
+jp_roadsigns_1033.jpg,Go_straight,0.75,226,158,386,317
+jp_roadsigns_1033.jpg,Keep_right,0.6,440,277,601,441

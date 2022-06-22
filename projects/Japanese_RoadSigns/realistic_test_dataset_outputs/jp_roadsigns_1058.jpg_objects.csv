@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1058.jpg,Steep_ascent10%,0.99,227,157,424,355
-jp_roadsigns_1058.jpg,Bicycles_and_pedestrians_only,0.99,16,36,217,236
-jp_roadsigns_1058.jpg,Straight_ahead_or_left_turn,0.98,438,276,633,474
-jp_roadsigns_1058.jpg,One_way_to_the_left,0.96,649,398,842,510
-jp_roadsigns_1058.jpg,Turn_right,0.66,858,516,1021,682
+jp_roadsigns_1058.jpg,One_way_to_the_left,0.99,650,400,843,511
+jp_roadsigns_1058.jpg,Steep_ascent10%,0.99,228,158,422,356
+jp_roadsigns_1058.jpg,Pedestrians_only,0.99,17,38,216,235
+jp_roadsigns_1058.jpg,School_zone,0.83,858,517,1020,679
+jp_roadsigns_1058.jpg,Sound_horn,0.48,440,279,630,475

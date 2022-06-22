@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1039.jpg,No_bicycles,0.97,16,37,213,235
-jp_roadsigns_1039.jpg,Stop_line,0.89,648,398,809,559
-jp_roadsigns_1039.jpg,Straight_ahead_or_right_turn,0.88,858,513,1054,714
-jp_roadsigns_1039.jpg,Road_narrows,0.85,441,278,602,439
-jp_roadsigns_1039.jpg,Maximum_speed_limit80km,0.4,230,160,351,281
+jp_roadsigns_1039.jpg,No_bicycles,0.98,19,37,212,233
+jp_roadsigns_1039.jpg,Parking_allowed,0.96,647,399,809,560
+jp_roadsigns_1039.jpg,Directions_indicator,0.91,859,515,1052,714
+jp_roadsigns_1039.jpg,Road_narrows,0.83,443,278,598,438
+jp_roadsigns_1039.jpg,Minimum_speed_limit50km,0.45,229,159,353,280

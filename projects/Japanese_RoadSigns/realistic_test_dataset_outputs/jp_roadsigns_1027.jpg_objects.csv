@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1027.jpg,Falling_rocks,0.92,17,38,213,233
-jp_roadsigns_1027.jpg,No_vehicles_carrying_dangerous_goods,0.92,438,276,633,474
-jp_roadsigns_1027.jpg,Straight_ahead_or_right_turn,0.86,226,161,397,348
-jp_roadsigns_1027.jpg,Left_turn,0.41,650,400,772,520
+jp_roadsigns_1027.jpg,Steep_descent10%,0.98,19,38,210,232
+jp_roadsigns_1027.jpg,School_crossing,0.8,226,160,397,351
+jp_roadsigns_1027.jpg,Maximum_speed_limit90km,0.74,650,400,773,522
+jp_roadsigns_1027.jpg,No_motorless_vehicle_except_bicycle,0.72,439,275,632,473
+jp_roadsigns_1027.jpg,Maximum_speed_limit80km,0.45,861,519,980,639

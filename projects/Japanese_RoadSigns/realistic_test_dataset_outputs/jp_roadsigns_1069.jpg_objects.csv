@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1069.jpg,Buses_priority,0.98,13,38,181,201
-jp_roadsigns_1069.jpg,Two_way_traffic_ahead,0.97,646,396,842,594
-jp_roadsigns_1069.jpg,Stopping_allowed,0.96,856,519,1020,683
-jp_roadsigns_1069.jpg,No_bicycles,0.94,229,156,390,319
-jp_roadsigns_1069.jpg,Left_curve,0.74,438,278,602,442
+jp_roadsigns_1069.jpg,Stopping_allowed,0.98,857,519,1020,683
+jp_roadsigns_1069.jpg,Buses_priority,0.98,14,39,180,202
+jp_roadsigns_1069.jpg,No_bicycles,0.95,229,156,390,318
+jp_roadsigns_1069.jpg,Left_curve,0.81,436,278,599,442
+jp_roadsigns_1069.jpg,Left_lane_ends,0.55,647,396,841,592

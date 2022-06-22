@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1006.jpg,Stopping_allowed,0.99,228,159,426,356
-jp_roadsigns_1006.jpg,No_entry_for_vehicles,0.83,439,278,603,440
-jp_roadsigns_1006.jpg,Two_way_traffic_ahead,0.69,856,516,1021,683
-jp_roadsigns_1006.jpg,Restriction_ends,0.63,650,399,839,456
+jp_roadsigns_1006.jpg,Stopping_allowed,0.99,230,158,424,354
+jp_roadsigns_1006.jpg,No_entry_for_vehicles,0.87,438,277,603,442
+jp_roadsigns_1006.jpg,Restriction_ends,0.62,21,37,177,87
+jp_roadsigns_1006.jpg,No_waiting,0.57,857,518,1019,680

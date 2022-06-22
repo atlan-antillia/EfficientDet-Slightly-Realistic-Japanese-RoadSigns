@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC06853.jpg,Road_closed_to_all,0.4,247,60,376,322

@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1075.jpg,Straight_ahead_or_left_turn,0.96,648,395,812,559
-jp_roadsigns_1075.jpg,Turn_right,0.85,438,279,602,443
-jp_roadsigns_1075.jpg,Bicycles_only,0.65,14,38,183,204
-jp_roadsigns_1075.jpg,Restriction_ends,0.51,863,519,1052,580
+jp_roadsigns_1075.jpg,School_zone,0.86,18,36,183,199
+jp_roadsigns_1075.jpg,Restricted_zone,0.77,861,520,1052,579
+jp_roadsigns_1075.jpg,Sound_horn,0.63,648,396,810,559
+jp_roadsigns_1075.jpg,Left_turn,0.44,228,158,392,319

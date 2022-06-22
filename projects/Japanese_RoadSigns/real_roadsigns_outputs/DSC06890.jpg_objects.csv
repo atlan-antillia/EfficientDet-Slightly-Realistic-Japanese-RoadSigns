@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC06890.jpg,No_buses,0.98,499,255,768,552

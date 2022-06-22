@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC04042.jpg,Go_straight,0.55,419,109,626,346
+DSC04042.jpg,Maximum_speed_limit50km,0.44,425,430,633,666
