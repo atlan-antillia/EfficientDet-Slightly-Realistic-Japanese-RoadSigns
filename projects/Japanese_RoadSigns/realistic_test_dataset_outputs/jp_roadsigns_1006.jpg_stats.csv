@@ -1,5 +1,5 @@
 id, class, count
-1,Stopping_allowed,1
-2,No_entry_for_vehicles,1
-3,Restriction_ends,1
-4,No_waiting,1
+1,Restricted_parking,1
+2,Slow_down,1
+3,Maximum_speed_limit30km,2
+4,Maximum_speed_limit80km,1

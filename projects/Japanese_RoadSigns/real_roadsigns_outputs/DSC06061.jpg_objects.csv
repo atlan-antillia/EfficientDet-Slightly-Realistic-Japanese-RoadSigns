@@ -1,3 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC06061.jpg,No_large_trucks,0.84,441,353,574,487
-DSC06061.jpg,No_buses,0.55,428,178,560,316
+DSC06061.jpg,No_waiting,0.97,442,356,571,487
+DSC06061.jpg,No_u_turns,0.5,431,182,563,313
+DSC06061.jpg,Go_straight,0.41,426,49,560,184

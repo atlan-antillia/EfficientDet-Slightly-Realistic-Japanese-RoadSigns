@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1076.jpg,Series_of_curves_to_the_right,0.98,19,37,208,233
-jp_roadsigns_1076.jpg,Safety_zone,0.96,859,517,1053,715
-jp_roadsigns_1076.jpg,Road_closed_to_all,0.75,649,398,814,564
-jp_roadsigns_1076.jpg,Road_closed_to_all,0.6,437,277,631,475
-jp_roadsigns_1076.jpg,Sound_horn,0.47,224,157,388,321
+jp_roadsigns_1076.jpg,Steep_ascent10%,0.99,988,446,1234,692
+jp_roadsigns_1076.jpg,School_zone,0.99,8,8,246,249
+jp_roadsigns_1076.jpg,No_twoperson_motorcycles,0.99,739,333,984,581
+jp_roadsigns_1076.jpg,Left_turn,0.99,495,225,740,470
+jp_roadsigns_1076.jpg,Train_crossing,0.8,253,120,373,241

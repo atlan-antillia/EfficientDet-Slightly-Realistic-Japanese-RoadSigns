@@ -1,5 +1,6 @@
 id, class, count
-1,Bumpy_road,1
-2,Directions_indicator,1
-3,One_way_to_the_right,1
-4,Left_turn,1
+1,No_pedestrian_crossing,1
+2,Dangerous_wind_gusts,1
+3,Road_closed_to_vehicles,1
+4,Restricted_zone,1
+5,Pedesrtrian_crossing,1

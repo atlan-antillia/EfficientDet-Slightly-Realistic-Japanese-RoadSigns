@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1085.jpg,School_crossing,0.85,858,516,1028,711
-jp_roadsigns_1085.jpg,School_crossing,0.81,440,280,582,440
-jp_roadsigns_1085.jpg,Go_straight,0.75,16,39,180,200
-jp_roadsigns_1085.jpg,Maximum_speed_limit80km,0.5,650,398,793,544
-jp_roadsigns_1085.jpg,No_twoperson_motorcycles,0.47,225,155,392,322
+jp_roadsigns_1085.jpg,Dangerous_wind_gusts,0.99,8,9,248,249
+jp_roadsigns_1085.jpg,Roadworks,0.98,495,228,741,475
+jp_roadsigns_1085.jpg,Dangerous_wind_gusts,0.95,249,120,376,241
+jp_roadsigns_1085.jpg,Maximum_speed_limit80km,0.91,990,448,1169,628
+jp_roadsigns_1085.jpg,One_way_to_the_left,0.83,748,338,865,409

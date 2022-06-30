@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1017.jpg,Go_straight,0.87,16,38,216,237
-jp_roadsigns_1017.jpg,No_stopping,0.85,228,157,425,355
-jp_roadsigns_1017.jpg,No_twoperson_motorcycles,0.83,859,515,1051,713
-jp_roadsigns_1017.jpg,No_vehicles_carrying_dangerous_goods,0.66,648,396,811,561
-jp_roadsigns_1017.jpg,Maximum_speed_limit80km,0.6,439,278,585,422
+jp_roadsigns_1017.jpg,Wild_animals_crossing,0.98,10,7,252,254
+jp_roadsigns_1017.jpg,Train_crossing,0.94,251,119,374,239
+jp_roadsigns_1017.jpg,Buses_priority,0.9,496,228,621,353
+jp_roadsigns_1017.jpg,Restriction_begins,0.9,991,446,1230,529
+jp_roadsigns_1017.jpg,Minimum_speed_limit30km,0.5,742,336,835,430

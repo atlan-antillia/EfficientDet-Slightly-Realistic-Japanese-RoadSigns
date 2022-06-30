@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1027.jpg,Steep_descent10%,0.98,19,38,210,232
-jp_roadsigns_1027.jpg,School_crossing,0.8,226,160,397,351
-jp_roadsigns_1027.jpg,Maximum_speed_limit90km,0.74,650,400,773,522
-jp_roadsigns_1027.jpg,No_motorless_vehicle_except_bicycle,0.72,439,275,632,473
-jp_roadsigns_1027.jpg,Maximum_speed_limit80km,0.45,861,519,980,639
+jp_roadsigns_1027.jpg,No_u_turns,0.99,252,119,499,364
+jp_roadsigns_1027.jpg,No_entry_for_vehicles,0.98,6,8,133,133
+jp_roadsigns_1027.jpg,Right_curve,0.98,741,339,868,463
+jp_roadsigns_1027.jpg,Turn_left,0.97,498,227,740,473
+jp_roadsigns_1027.jpg,Road_closed_to_vehicles,0.93,989,445,1111,573

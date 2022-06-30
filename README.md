@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/06/22)
+EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/07/01)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in Japan based on 
@@ -19,13 +19,13 @@ Modified to use tensorflow 2.8.0 on Windows11. (2022/06/16)<br>
 Modified to use the latest <a href="https://github.com/google/automl/tree/master/efficientdet">google/automl/efficientdet</a>.(2022/06/10)<br>
 </li>
 <li>
-Modified to use mixed-size roadsigns dataset (<b>mixed_train.tfrecord</b> and <b>mixed_valid.tfrecord</b>) to improve  
-inference accuracy to realistic_test_dataset.(2022/06/22)<br>
-</li>
-<li>
 Added real roadsigns test dataset and inference script <b>4_real_inference,bat</b> for the dataset.(2022/06/22)<br>
 </li>
-
+<li>
+Modified to use a new roadsigns tfrecord dataset to improve  
+inference accuracy to realistic_test_dataset.(2022/07/01)<br>
+</li>
+<br>
 <h2>
 1. Installing tensorflow on Windows11
 </h2>
@@ -81,27 +81,10 @@ EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes
         ├─realistic_test_dataset_outputs
         ├─real_roadsigns
         ├─real_roadsigns_outputs
-        ├─saved_model
-        │  └─variables
-        ├─train
-        └─valid
+        └─saved_model
+             └─variables
 </pre>
-The train and valid folders contain following files:<br>
-<pre>
- +--train
- |   +-- mixed_train.tfrecord
- |   +-- train.7z    
- +--valid
-     +-- mixed_valid.tfrecord
-     +-- valid.7z    
-
-</pre>
-We have newly added the tfrecord files, <b>mixed_train.tfrecord</b> and <b>mixed_valid.tfrecord</b>,
-to improve inference accuracy to the realistic_test_dataset.<br>
-
-If you would like to retrain roadsigns efficientdet model by yourself, you have to expand train.7z in train folder and valid.7z in valid folder
- to get the original tfrecord dataset.<br> 
-
+<br>
 <h3>2.2 Install python packages</h3>
 
 Please run the following command to install python packages for this project.<br>
@@ -112,10 +95,8 @@ Please run the following command to install python packages for this project.<br
 
 <br>
 <h3>2.3 Download TFRecord dataset</h3>
-You can also download TFRecord_Japanese-RoadSigns-90classes_V2.1 from
-<a href="https://drive.google.com/drive/folders/1jLK8xfoYydK47q8nomsqCjzDhyg2Npvd?usp=sharing">Japanese_RoadSigns_90classes_V5</a>
-<br>
-<br>
+Please download the latest TFRecord_Japanese-RoadSigns-90classes_V7 (2022/07/01) dataset from  
+<a href="https://drive.google.com/file/d/1I6q40GRsSSdiBQE4XZQSExBK7-aPokjp/view?usp=sharing">TFRecord_Japanese-RoadSigns-90classes_V7.zip</a>
 
 The downloaded train and valid dataset must be placed in ./projects/Japanese_RoadSigns folder.
 <pre>
@@ -179,11 +160,11 @@ python ../../TFRecordInspector.py ^
 This will generate annotated images with bboxes and labels from the tfrecord, and cout the number of annotated objects in it.<br>
 <br>
 <b>TFRecordInspecotr: annotated images in train.tfrecord</b><br>
-<img src="./asset/TFRecordInspector_train_annotated_images_V2.1.png" width="800" height="auto">
+<img src="./asset/TFRecordInspector_train_annotated_images_V7_0701.png" width="800" height="auto">
 <br>
 <br>
 <b>TFRecordInspecotr: objects_count train.tfrecord</b><br>
-<img src="./asset/TFRecordInspector_train_objects_count_V2.1.png" width="800" height="auto">
+<img src="./asset/TFRecordInspector_train_objects_count_V7_0701.png" width="800" height="auto">
 <br>
 This bar graph shows that the number of the objects contained in train.tfrecord.
 <br>
@@ -220,8 +201,8 @@ python ../../ModelTrainer.py ^
   --early_stopping=map ^
   --patience=10 ^
   --eval_batch_size=1 ^
-  --eval_samples=500  ^
-  --num_examples_per_epoch=1000 ^
+  --eval_samples=1000  ^
+  --num_examples_per_epoch=2000 ^
   --num_epochs=100
 </pre>
 
@@ -280,11 +261,11 @@ python ../../ModelTrainer.py ^
 </tr>
 <tr>
 <td>
---eval_samples</td><td>500</td>
+--eval_samples</td><td>1000</td>
 </tr>
 <tr>
 <td>
---num_examples_per_epoch</td><td>1000</td>
+--num_examples_per_epoch</td><td>2000</td>
 </tr>
 <tr>
 <td>
@@ -388,21 +369,21 @@ python ../../ModelTrainer.py ^
 </pre>
 <br>
 <b>Console output COCO meticss f and map at epoch 67</a></b><br>
-<img src="./asset/cocometric_train_console_output_V2.1+mixed_dataset_at_epoch67.png" width="1024" height="auto">
+<img src="./asset/cocometric_train_console_output_V7_at_epoch67_0701.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/coco_metrics_f_map_v2.1+mixed_dataset_at_ecpoch67.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_f_map_V7_at_ecpoch67_0701.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_v2.1+mixed_dataset_at_ecpoch67.png" width="1024" height="auto">
+<img src="./asset/train_losses_V7_at_ecpoch67_0701.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_v2.1+mixed_dataset_at_ecpoch67.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_V7_at_ecpoch67_0701.png" width="1024" height="auto">
 <br>
 
 <h3>
@@ -546,7 +527,7 @@ The 3_inference.bat computes also the COCO metrics(f, map, mar) file to the real
 
 <a href="./projects/Japanese_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 <br>
-<img src="./asset/cocometric_ap_for_test_dataset_V2.1+mixed_dataset_by_epoch67.png" width="740" height="auto"><br>
+<img src="./asset/cocometric_test_dataset_console_output_V7_at_epoch67_0701.png" width="740" height="auto"><br>
 
 
 <h3> 

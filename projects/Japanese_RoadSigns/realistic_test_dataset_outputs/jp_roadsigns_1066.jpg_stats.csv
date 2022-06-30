@@ -1,5 +1,6 @@
 id, class, count
-1,No_overtaking,1
-2,Steep_ascent10%,1
-3,No_vehicles_carrying_dangerous_goods,1
-4,No_two_stage_right_turn_for_mopeds,1
+1,No_buses,1
+2,Restricted_parking,1
+3,Slippery_road,1
+4,Maximum_speed_limit30km,1
+5,Buses_priority,1

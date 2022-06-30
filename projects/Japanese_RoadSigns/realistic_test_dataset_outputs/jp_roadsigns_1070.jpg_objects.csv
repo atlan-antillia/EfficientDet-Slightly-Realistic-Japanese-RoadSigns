@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1070.jpg,Restricted_parking,0.96,440,278,599,440
-jp_roadsigns_1070.jpg,Falling_rocks,0.95,17,39,210,234
-jp_roadsigns_1070.jpg,Bicycles_and_pedestrians_only,0.89,859,520,1022,681
-jp_roadsigns_1070.jpg,No_waiting,0.51,648,398,813,562
+jp_roadsigns_1070.jpg,Road_narrows,0.99,496,228,746,470
+jp_roadsigns_1070.jpg,Straight_ahead_or_right_turn,0.99,252,119,501,364
+jp_roadsigns_1070.jpg,School_zone,0.98,7,5,132,131
+jp_roadsigns_1070.jpg,Straight_ahead_or_right_turn,0.97,745,334,985,581
+jp_roadsigns_1070.jpg,Directions_indicator,0.85,988,446,1114,572

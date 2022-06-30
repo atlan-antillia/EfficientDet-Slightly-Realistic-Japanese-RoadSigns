@@ -1,2 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC06854.jpg,Minimum_speed_limit50km,0.58,310,108,490,296
+DSC06854.jpg,Maximum_speed_limit40km,0.97,308,102,490,291
+DSC06854.jpg,No_waiting,0.95,310,287,487,469

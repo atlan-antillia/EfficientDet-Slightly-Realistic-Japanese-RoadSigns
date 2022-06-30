@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1057.jpg,Stop_line,0.99,650,400,815,561
-jp_roadsigns_1057.jpg,Crossroads,0.98,858,515,1054,717
-jp_roadsigns_1057.jpg,No_u_turns,0.91,438,276,633,474
-jp_roadsigns_1057.jpg,No_pedestrian_crossing,0.87,18,36,213,233
-jp_roadsigns_1057.jpg,No_right_turn_crossing,0.61,227,158,388,320
+jp_roadsigns_1057.jpg,Slippery_road,0.99,498,227,742,475
+jp_roadsigns_1057.jpg,Bumpy_road,0.99,252,118,500,365
+jp_roadsigns_1057.jpg,No_large_trucks,0.99,738,332,985,581
+jp_roadsigns_1057.jpg,Straight_ahead_or_left_turn,0.97,8,7,132,133

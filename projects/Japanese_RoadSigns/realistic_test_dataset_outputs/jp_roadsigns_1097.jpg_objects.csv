@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1097.jpg,Restricted_parking,0.99,19,37,211,233
-jp_roadsigns_1097.jpg,Series_of_curves_to_the_left,0.83,438,279,603,443
-jp_roadsigns_1097.jpg,Maximum_speed_limit80km,0.61,859,519,1001,662
-jp_roadsigns_1097.jpg,Restricted_zone,0.44,650,400,809,448
+jp_roadsigns_1097.jpg,Train_crossing,0.99,8,8,252,251
+jp_roadsigns_1097.jpg,Parking_allowed,0.99,252,117,498,365
+jp_roadsigns_1097.jpg,Stop,0.98,500,229,619,337
+jp_roadsigns_1097.jpg,Sound_horn,0.97,988,446,1112,572
+jp_roadsigns_1097.jpg,Bumpy_road,0.69,743,339,867,460

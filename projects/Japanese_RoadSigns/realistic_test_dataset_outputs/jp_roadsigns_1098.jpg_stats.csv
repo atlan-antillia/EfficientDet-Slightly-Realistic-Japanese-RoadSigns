@@ -1,6 +1,5 @@
 id, class, count
-1,Steep_ascent10%,1
-2,Minimum_speed_limit50km,1
-3,Right_turn,1
-4,No_right_turn_crossing,1
-5,No_vehicles_carrying_dangerous_goods,1
+1,Dangerous_wind_gusts,1
+2,No_twoperson_motorcycles,1
+3,Maximum_speed_limit40km,1
+4,Train_crossing,1

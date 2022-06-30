@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1001.jpg,Crossroads,0.99,17,37,213,235
-jp_roadsigns_1001.jpg,Series_of_curves_to_the_left,0.87,440,278,632,470
-jp_roadsigns_1001.jpg,Roundabout,0.79,230,161,386,318
-jp_roadsigns_1001.jpg,Left_curve,0.78,648,397,808,562
+jp_roadsigns_1001.jpg,Bumpy_road,0.99,6,5,129,130
+jp_roadsigns_1001.jpg,Sound_horn,0.99,495,228,744,474
+jp_roadsigns_1001.jpg,Right_curve,0.99,253,120,502,364
+jp_roadsigns_1001.jpg,Two_way_traffic_ahead,0.98,988,445,1110,572
+jp_roadsigns_1001.jpg,Stopping_allowed,0.63,743,340,871,460

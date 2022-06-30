@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1028.jpg,No_u_turns,0.79,858,516,1056,716
-jp_roadsigns_1028.jpg,Rotary,0.77,230,157,421,355
-jp_roadsigns_1028.jpg,No_vehicles_wider_than2.2ms,0.72,437,275,633,474
-jp_roadsigns_1028.jpg,Go_straight,0.72,19,38,178,199
+jp_roadsigns_1028.jpg,Crossroads,0.99,10,7,249,249
+jp_roadsigns_1028.jpg,Left_turn,0.93,741,339,867,462
+jp_roadsigns_1028.jpg,Maximum_speed_limit50km,0.93,497,227,685,415
+jp_roadsigns_1028.jpg,No_vehicles_carrying_dangerous_goods,0.77,987,444,1114,573
+jp_roadsigns_1028.jpg,Restriction_begins,0.53,253,120,377,159

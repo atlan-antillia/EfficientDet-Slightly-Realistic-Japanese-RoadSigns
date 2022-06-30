@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1026.jpg,Closed_to_pedestrians,0.99,439,277,636,474
-jp_roadsigns_1026.jpg,Series_of_curves_to_the_right,0.96,16,39,177,201
-jp_roadsigns_1026.jpg,No_right_turn_crossing,0.85,650,397,844,595
-jp_roadsigns_1026.jpg,Go_straight,0.77,224,156,387,318
-jp_roadsigns_1026.jpg,Bumpy_road,0.75,857,518,1020,681
+jp_roadsigns_1026.jpg,No_waiting,0.98,989,445,1112,572
+jp_roadsigns_1026.jpg,Road_closed_to_vehicles,0.98,251,117,499,365
+jp_roadsigns_1026.jpg,Maximum_speed_limit60km,0.98,9,11,192,194
+jp_roadsigns_1026.jpg,No_vehicles_wider_than2.2ms,0.98,497,225,624,352
+jp_roadsigns_1026.jpg,Restriction_ends,0.42,739,337,868,381

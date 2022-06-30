@@ -1,2 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC04637.jpg,No_two_stage_right_turn_for_mopeds,0.61,409,56,857,616
+DSC04637.jpg,No_two_stage_right_turn_for_mopeds,0.93,400,30,827,486
+DSC04637.jpg,No_two_stage_right_turn_for_mopeds,0.42,302,17,843,736

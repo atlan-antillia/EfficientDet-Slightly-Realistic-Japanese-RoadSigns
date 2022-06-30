@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1092.jpg,No_motorless_vehicle_except_bicycle,0.99,18,37,212,233
-jp_roadsigns_1092.jpg,Sound_horn,0.98,438,277,601,440
-jp_roadsigns_1092.jpg,Bicycles_and_pedestrians_only,0.92,859,518,1018,680
-jp_roadsigns_1092.jpg,Keep_right,0.54,226,159,390,323
-jp_roadsigns_1092.jpg,Merging_traffic_ahead,0.45,646,398,812,561
+jp_roadsigns_1092.jpg,No_entry_for_vehicles,0.99,494,230,740,475
+jp_roadsigns_1092.jpg,Stop_line,0.99,6,6,250,249
+jp_roadsigns_1092.jpg,Wild_animals_crossing,0.99,249,119,501,363
+jp_roadsigns_1092.jpg,No_large_trucks,0.97,988,444,1112,571
+jp_roadsigns_1092.jpg,No_vehicles_carrying_dangerous_goods,0.68,743,338,867,462

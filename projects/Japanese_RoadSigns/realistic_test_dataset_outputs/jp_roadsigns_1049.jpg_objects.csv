@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1049.jpg,Roundabout,0.92,20,40,210,229
-jp_roadsigns_1049.jpg,Roadworks,0.75,437,279,601,439
-jp_roadsigns_1049.jpg,Maximum_speed_limit90km,0.62,230,160,351,280
-jp_roadsigns_1049.jpg,Restriction_ends,0.45,860,519,1057,579
-jp_roadsigns_1049.jpg,Maximum_speed_limit80km,0.4,648,396,771,521
+jp_roadsigns_1049.jpg,Right_curve,0.99,8,8,253,253
+jp_roadsigns_1049.jpg,Wild_animals_crossing,0.99,990,445,1230,690
+jp_roadsigns_1049.jpg,Right_curve,0.99,496,230,741,471
+jp_roadsigns_1049.jpg,Pedesrtrian_crossing,0.99,742,338,958,580
+jp_roadsigns_1049.jpg,No_right_turn_crossing,0.99,249,113,497,363

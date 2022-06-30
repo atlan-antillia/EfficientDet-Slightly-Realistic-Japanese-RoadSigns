@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1043.jpg,Restricted_parking,0.99,650,395,844,594
-jp_roadsigns_1043.jpg,One_way_to_the_right,0.96,863,519,1019,613
-jp_roadsigns_1043.jpg,Road_narrows,0.91,16,38,210,232
-jp_roadsigns_1043.jpg,Left_curve,0.68,438,274,602,441
+jp_roadsigns_1043.jpg,Buses_priority,0.99,495,228,740,471
+jp_roadsigns_1043.jpg,Series_of_curves_to_the_left,0.99,8,5,248,249
+jp_roadsigns_1043.jpg,Bicycles_only,0.98,251,120,499,361
+jp_roadsigns_1043.jpg,No_large_trucks,0.95,990,445,1112,571
+jp_roadsigns_1043.jpg,Other_dangers,0.42,742,340,868,463

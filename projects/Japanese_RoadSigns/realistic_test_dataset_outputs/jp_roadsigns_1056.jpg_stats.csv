@@ -1,6 +1,6 @@
 id, class, count
-1,Left_curve,1
-2,Keep_left,1
-3,School_crossing,1
-4,No_two_stage_right_turn_for_mopeds,1
-5,Rotary,1
+1,Steep_descent10%,1
+2,Vehicles_only,1
+3,No_twoperson_motorcycles,1
+4,No_vehicles_wider_than2.2ms,1
+5,Turn_right,1

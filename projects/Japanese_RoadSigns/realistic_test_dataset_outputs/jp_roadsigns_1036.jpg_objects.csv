@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1036.jpg,No_large_trucks,0.98,439,277,601,440
-jp_roadsigns_1036.jpg,Pedesrtrian_crossing,0.96,857,519,1030,714
-jp_roadsigns_1036.jpg,No_bicycles,0.93,229,156,392,321
-jp_roadsigns_1036.jpg,Left_curve,0.92,15,38,182,202
-jp_roadsigns_1036.jpg,No_vehicles_weighing_over5.5ts,0.79,649,397,810,560
+jp_roadsigns_1036.jpg,Bicycles_and_pedestrians_only,0.99,987,443,1233,693
+jp_roadsigns_1036.jpg,Right_curve,0.97,250,118,374,241
+jp_roadsigns_1036.jpg,School_zone,0.97,499,226,619,352
+jp_roadsigns_1036.jpg,Straight_ahead_or_right_turn,0.96,7,5,132,132
+jp_roadsigns_1036.jpg,One_way_to_the_right,0.85,742,341,862,411

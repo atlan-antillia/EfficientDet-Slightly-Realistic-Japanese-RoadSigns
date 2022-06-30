@@ -1,2 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC06025.jpg,No_waiting,0.4,832,171,962,345
+DSC06025.jpg,No_waiting,0.96,842,440,966,613
+DSC06025.jpg,No_stopping,0.89,833,172,962,345

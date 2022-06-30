@@ -1,6 +1,6 @@
 id, class, count
-1,Bumpy_road,1
-2,Dangerous_wind_gusts,1
-3,No_large_trucks,1
-4,Safety_zone,1
-5,Directions_indicator,1
+1,No_pedestrian_crossing,1
+2,Other_dangers,1
+3,One_way,1
+4,Bumpy_road,1
+5,No_u_turns,1

@@ -1,4 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC04602.jpg,Sound_horn,0.64,617,82,773,284
-DSC04602.jpg,Bicycles_and_pedestrians_only,0.6,445,218,595,359
-DSC04602.jpg,Sound_horn,0.55,630,386,798,604
+DSC04602.jpg,No_waiting,0.97,632,389,798,606
+DSC04602.jpg,Bicycles_and_pedestrians_only,0.93,446,218,594,364
+DSC04602.jpg,Go_straight,0.84,620,77,772,283

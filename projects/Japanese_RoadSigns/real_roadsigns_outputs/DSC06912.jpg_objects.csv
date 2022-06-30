@@ -1,1 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC06912.jpg,Parking_allowed,0.53,343,26,526,265
+DSC06912.jpg,Restricted_parking,0.45,522,159,648,371
