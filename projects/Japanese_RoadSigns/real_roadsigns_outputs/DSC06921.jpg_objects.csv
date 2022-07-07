@@ -1,2 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC06921.jpg,Stop,0.98,402,144,600,362
+DSC06921.jpg,Slow_down,0.74,400,144,608,362
+DSC06921.jpg,Turn_right,0.51,0,351,53,429

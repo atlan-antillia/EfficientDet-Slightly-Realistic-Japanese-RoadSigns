@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1017.jpg,Wild_animals_crossing,0.98,10,7,252,254
-jp_roadsigns_1017.jpg,Train_crossing,0.94,251,119,374,239
-jp_roadsigns_1017.jpg,Buses_priority,0.9,496,228,621,353
-jp_roadsigns_1017.jpg,Restriction_begins,0.9,991,446,1230,529
-jp_roadsigns_1017.jpg,Minimum_speed_limit30km,0.5,742,336,835,430
+jp_roadsigns_1017.jpg,Wild_animals_crossing,0.99,11,7,251,252
+jp_roadsigns_1017.jpg,Buses_priority,0.98,498,228,621,350
+jp_roadsigns_1017.jpg,Train_crossing,0.97,251,119,375,238
+jp_roadsigns_1017.jpg,Restriction_begins,0.74,990,448,1226,528
+jp_roadsigns_1017.jpg,Minimum_speed_limit30km,0.66,744,336,836,430

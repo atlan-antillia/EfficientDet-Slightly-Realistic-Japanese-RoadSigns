@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1092.jpg,No_entry_for_vehicles,0.99,494,230,740,475
-jp_roadsigns_1092.jpg,Stop_line,0.99,6,6,250,249
-jp_roadsigns_1092.jpg,Wild_animals_crossing,0.99,249,119,501,363
-jp_roadsigns_1092.jpg,No_large_trucks,0.97,988,444,1112,571
-jp_roadsigns_1092.jpg,No_vehicles_carrying_dangerous_goods,0.68,743,338,867,462
+jp_roadsigns_1092.jpg,No_entry_for_vehicles,0.99,498,226,740,471
+jp_roadsigns_1092.jpg,No_large_trucks,0.99,988,446,1111,570
+jp_roadsigns_1092.jpg,Stop_line,0.99,6,6,251,249
+jp_roadsigns_1092.jpg,Wild_animals_crossing,0.99,252,120,501,361
+jp_roadsigns_1092.jpg,No_vehicles_carrying_dangerous_goods,0.95,744,338,867,461

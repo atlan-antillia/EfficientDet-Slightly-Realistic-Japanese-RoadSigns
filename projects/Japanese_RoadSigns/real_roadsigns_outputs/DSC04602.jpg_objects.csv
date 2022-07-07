@@ -1,4 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC04602.jpg,No_waiting,0.97,632,389,798,606
-DSC04602.jpg,Bicycles_and_pedestrians_only,0.93,446,218,594,364
-DSC04602.jpg,Go_straight,0.84,620,77,772,283
+DSC04602.jpg,Bicycles_and_pedestrians_only,0.98,447,215,596,360
+DSC04602.jpg,No_waiting,0.95,639,387,798,603
+DSC04602.jpg,Go_straight,0.75,622,78,774,284

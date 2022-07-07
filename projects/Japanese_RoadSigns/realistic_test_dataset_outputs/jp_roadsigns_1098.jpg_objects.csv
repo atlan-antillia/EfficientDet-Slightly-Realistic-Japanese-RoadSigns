@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1098.jpg,Dangerous_wind_gusts,0.99,6,4,132,133
-jp_roadsigns_1098.jpg,No_twoperson_motorcycles,0.99,987,444,1230,691
-jp_roadsigns_1098.jpg,Maximum_speed_limit40km,0.98,256,120,431,297
-jp_roadsigns_1098.jpg,Train_crossing,0.98,494,229,622,354
+jp_roadsigns_1098.jpg,No_twoperson_motorcycles,0.99,987,445,1230,690
+jp_roadsigns_1098.jpg,Dangerous_wind_gusts,0.99,8,7,130,132
+jp_roadsigns_1098.jpg,Maximum_speed_limit40km,0.98,257,120,432,297
+jp_roadsigns_1098.jpg,Train_crossing,0.96,496,228,620,351
+jp_roadsigns_1098.jpg,Maximum_speed_limit80km,0.65,748,340,837,429

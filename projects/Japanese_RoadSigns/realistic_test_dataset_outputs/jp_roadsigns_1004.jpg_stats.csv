@@ -1,5 +1,6 @@
 id, class, count
 1,No_vehicles_carrying_dangerous_goods,1
-2,No_waiting,1
-3,No_two_stage_right_turn_for_mopeds,1
+2,No_two_stage_right_turn_for_mopeds,1
+3,No_waiting,1
 4,One_way_to_the_right,1
+5,Maximum_speed_limit40km,1

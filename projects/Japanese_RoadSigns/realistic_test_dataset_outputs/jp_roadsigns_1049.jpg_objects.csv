@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1049.jpg,Right_curve,0.99,8,8,253,253
-jp_roadsigns_1049.jpg,Wild_animals_crossing,0.99,990,445,1230,690
-jp_roadsigns_1049.jpg,Right_curve,0.99,496,230,741,471
-jp_roadsigns_1049.jpg,Pedesrtrian_crossing,0.99,742,338,958,580
-jp_roadsigns_1049.jpg,No_right_turn_crossing,0.99,249,113,497,363
+jp_roadsigns_1049.jpg,Wild_animals_crossing,0.99,990,449,1230,693
+jp_roadsigns_1049.jpg,No_right_turn_crossing,0.99,253,114,496,361
+jp_roadsigns_1049.jpg,Pedesrtrian_crossing,0.98,749,342,960,578
+jp_roadsigns_1049.jpg,Right_curve,0.98,9,7,253,253
+jp_roadsigns_1049.jpg,Right_curve,0.98,499,227,741,471

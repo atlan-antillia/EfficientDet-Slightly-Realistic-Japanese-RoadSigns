@@ -1,6 +1,6 @@
 id, class, count
-1,Stopping_allowed,1
-2,No_waiting,1
+1,No_waiting,1
+2,Restricted_parking,1
 3,Slow_down,1
-4,Restricted_parking,1
-5,Series_of_curves_to_the_left,1
+4,Stopping_allowed,1
+5,Merging_traffic_ahead,1

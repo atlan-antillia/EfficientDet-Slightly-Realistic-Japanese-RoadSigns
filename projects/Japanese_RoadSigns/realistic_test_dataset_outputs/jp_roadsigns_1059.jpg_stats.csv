@@ -1,6 +1,6 @@
 id, class, count
-1,Straight_ahead_or_right_turn,1
-2,Turn_left,1
-3,Slow_down,1
-4,Wild_animals_crossing,1
+1,Turn_left,1
+2,Straight_ahead_or_right_turn,1
+3,Wild_animals_crossing,1
+4,Slow_down,1
 5,Maximum_speed_limit60km,1

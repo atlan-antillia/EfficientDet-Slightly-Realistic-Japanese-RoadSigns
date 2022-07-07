@@ -1,6 +1,6 @@
 id, class, count
 1,Road_closed_to_all,1
 2,No_u_turns,1
-3,No_twoperson_motorcycles,1
-4,No_vehicles_weighing_over5.5ts,1
-5,Traffic_light_ahead,1
+3,No_vehicles_weighing_over5.5ts,1
+4,Traffic_light_ahead,1
+5,No_twoperson_motorcycles,1

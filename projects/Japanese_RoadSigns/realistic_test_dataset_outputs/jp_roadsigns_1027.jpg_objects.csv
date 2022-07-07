@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1027.jpg,No_u_turns,0.99,252,119,499,364
-jp_roadsigns_1027.jpg,No_entry_for_vehicles,0.98,6,8,133,133
-jp_roadsigns_1027.jpg,Right_curve,0.98,741,339,868,463
-jp_roadsigns_1027.jpg,Turn_left,0.97,498,227,740,473
-jp_roadsigns_1027.jpg,Road_closed_to_vehicles,0.93,989,445,1111,573
+jp_roadsigns_1027.jpg,No_entry_for_vehicles,0.99,7,8,132,131
+jp_roadsigns_1027.jpg,Turn_left,0.99,500,226,742,470
+jp_roadsigns_1027.jpg,No_u_turns,0.99,254,117,499,365
+jp_roadsigns_1027.jpg,Road_closed_to_vehicles,0.98,990,447,1110,571
+jp_roadsigns_1027.jpg,Right_curve,0.94,743,339,866,460

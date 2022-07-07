@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1016.jpg,No_overtaking,0.99,8,6,251,250
-jp_roadsigns_1016.jpg,Sound_horn,0.99,740,333,986,580
-jp_roadsigns_1016.jpg,No_vehicles_higher_than3.3ms,0.99,251,116,500,366
-jp_roadsigns_1016.jpg,No_large_trucks,0.89,989,445,1114,571
-jp_roadsigns_1016.jpg,One_way,0.68,494,233,570,350
+jp_roadsigns_1016.jpg,No_overtaking,0.99,8,7,250,249
+jp_roadsigns_1016.jpg,No_vehicles_higher_than3.3ms,0.99,255,116,499,365
+jp_roadsigns_1016.jpg,Sound_horn,0.99,745,334,986,580
+jp_roadsigns_1016.jpg,No_large_trucks,0.99,992,447,1113,571
+jp_roadsigns_1016.jpg,One_way,0.8,498,231,569,349

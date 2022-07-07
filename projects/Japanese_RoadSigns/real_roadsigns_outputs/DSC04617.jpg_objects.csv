@@ -1,4 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC04617.jpg,One_way_to_the_right,0.9,567,217,729,318
-DSC04617.jpg,Pedesrtrian_crossing,0.89,558,322,718,508
-DSC04617.jpg,School_crossing,0.5,1049,255,1097,354
+DSC04617.jpg,One_way_to_the_right,0.99,568,218,729,318
+DSC04617.jpg,Pedesrtrian_crossing,0.89,562,322,719,506

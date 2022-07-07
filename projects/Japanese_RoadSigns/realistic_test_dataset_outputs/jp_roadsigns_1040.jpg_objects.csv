@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1040.jpg,Stopping_allowed,0.99,742,335,985,579
-jp_roadsigns_1040.jpg,No_waiting,0.99,7,6,130,131
-jp_roadsigns_1040.jpg,Slow_down,0.96,245,119,500,337
-jp_roadsigns_1040.jpg,Restricted_parking,0.94,986,445,1111,571
-jp_roadsigns_1040.jpg,Series_of_curves_to_the_left,0.43,498,227,620,352
+jp_roadsigns_1040.jpg,No_waiting,0.99,9,8,130,129
+jp_roadsigns_1040.jpg,Restricted_parking,0.99,988,449,1110,572
+jp_roadsigns_1040.jpg,Slow_down,0.99,246,120,498,337
+jp_roadsigns_1040.jpg,Stopping_allowed,0.99,746,336,983,579
+jp_roadsigns_1040.jpg,Merging_traffic_ahead,0.81,497,227,619,350

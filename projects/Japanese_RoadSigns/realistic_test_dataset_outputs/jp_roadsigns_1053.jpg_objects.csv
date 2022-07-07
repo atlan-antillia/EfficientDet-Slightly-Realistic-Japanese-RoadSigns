@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1053.jpg,Restricted_parking,0.99,744,336,991,583
-jp_roadsigns_1053.jpg,Keep_left,0.99,497,228,741,473
-jp_roadsigns_1053.jpg,Traffic_light_ahead,0.99,8,7,250,250
-jp_roadsigns_1053.jpg,Safety_zone,0.99,254,119,495,362
-jp_roadsigns_1053.jpg,No_vehicles_carrying_dangerous_goods,0.51,989,443,1111,570
+jp_roadsigns_1053.jpg,Restricted_parking,0.99,745,338,989,584
+jp_roadsigns_1053.jpg,Traffic_light_ahead,0.98,8,7,254,249
+jp_roadsigns_1053.jpg,Keep_left,0.98,499,228,741,471
+jp_roadsigns_1053.jpg,No_vehicles_carrying_dangerous_goods,0.98,992,447,1111,570
+jp_roadsigns_1053.jpg,Safety_zone,0.95,256,118,493,362

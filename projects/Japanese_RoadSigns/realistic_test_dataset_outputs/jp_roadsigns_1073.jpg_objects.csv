@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1073.jpg,Parking_allowed,0.99,743,333,985,579
-jp_roadsigns_1073.jpg,Steep_ascent10%,0.98,496,227,624,351
-jp_roadsigns_1073.jpg,One_way_to_the_left,0.97,13,7,252,147
-jp_roadsigns_1073.jpg,One_way,0.77,253,120,324,243
-jp_roadsigns_1073.jpg,Two_stage_right_turn_for_mopeds,0.63,985,447,1112,572
+jp_roadsigns_1073.jpg,Parking_allowed,0.99,745,335,986,580
+jp_roadsigns_1073.jpg,Steep_ascent10%,0.98,496,227,622,351
+jp_roadsigns_1073.jpg,One_way_to_the_left,0.98,11,5,248,146
+jp_roadsigns_1073.jpg,Two_stage_right_turn_for_mopeds,0.95,989,449,1111,571
+jp_roadsigns_1073.jpg,One_way,0.74,254,121,324,240

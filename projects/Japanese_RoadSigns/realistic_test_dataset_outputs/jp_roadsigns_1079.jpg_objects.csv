@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1079.jpg,Series_of_curves_to_the_right,0.99,248,119,501,362
-jp_roadsigns_1079.jpg,School_zone,0.99,745,334,984,581
-jp_roadsigns_1079.jpg,Right_turn,0.94,7,6,131,132
-jp_roadsigns_1079.jpg,Wild_animals_crossing,0.7,497,227,619,351
-jp_roadsigns_1079.jpg,Restricted_parking,0.56,988,444,1111,570
+jp_roadsigns_1079.jpg,School_zone,0.99,745,336,985,580
+jp_roadsigns_1079.jpg,Series_of_curves_to_the_right,0.98,248,120,498,360
+jp_roadsigns_1079.jpg,Restricted_parking,0.98,990,448,1111,571
+jp_roadsigns_1079.jpg,Right_turn,0.97,9,10,131,131
+jp_roadsigns_1079.jpg,Wild_animals_crossing,0.91,496,228,618,350

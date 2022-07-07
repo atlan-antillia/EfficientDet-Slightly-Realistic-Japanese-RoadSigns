@@ -1,2 +1,2 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC05985.jpg,No_pedestrian_crossing,0.96,242,295,366,427
+DSC05985.jpg,No_pedestrian_crossing,0.94,243,295,366,429

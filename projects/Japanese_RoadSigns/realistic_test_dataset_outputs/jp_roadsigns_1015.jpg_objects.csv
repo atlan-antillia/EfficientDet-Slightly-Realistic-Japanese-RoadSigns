@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1015.jpg,Pedestrians_only,0.99,741,330,986,580
-jp_roadsigns_1015.jpg,Restricted_parking,0.99,252,118,498,364
-jp_roadsigns_1015.jpg,Rotary,0.98,989,449,1111,570
-jp_roadsigns_1015.jpg,Right_curve,0.97,496,228,622,353
-jp_roadsigns_1015.jpg,Sound_horn,0.87,8,6,132,134
+jp_roadsigns_1015.jpg,Pedestrians_only,0.99,743,333,987,580
+jp_roadsigns_1015.jpg,Sound_horn,0.98,9,8,132,134
+jp_roadsigns_1015.jpg,Restricted_parking,0.97,255,119,497,366
+jp_roadsigns_1015.jpg,Rotary,0.94,990,449,1110,569
+jp_roadsigns_1015.jpg,Right_curve,0.91,498,227,623,352

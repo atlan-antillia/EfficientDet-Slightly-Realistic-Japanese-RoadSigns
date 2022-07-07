@@ -1,6 +1,6 @@
 id, class, count
-1,Safety_zone,1
-2,No_large_trucks,1
+1,No_large_trucks,1
+2,No_overtaking,1
 3,Roadworks,1
-4,No_vehicles_wider_than2.2ms,1
-5,No_overtaking,1
+4,Safety_zone,1
+5,No_vehicles_wider_than2.2ms,1

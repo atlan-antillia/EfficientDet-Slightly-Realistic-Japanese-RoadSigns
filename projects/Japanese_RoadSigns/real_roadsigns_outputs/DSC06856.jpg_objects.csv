@@ -1,2 +1,2 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC06856.jpg,Straight_ahead_or_right_turn,0.95,531,212,737,492
+DSC06856.jpg,Straight_ahead_or_right_turn,0.97,532,236,738,496

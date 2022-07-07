@@ -1,3 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC06876.jpg,No_u_turns,0.98,493,338,608,456
-DSC06876.jpg,Straight_ahead_or_left_turn,0.86,490,173,609,295
+DSC06876.jpg,No_u_turns,0.91,493,337,608,457
+DSC06876.jpg,Stop_line,0.75,755,491,835,587
+DSC06876.jpg,Straight_ahead_or_left_turn,0.59,490,174,608,295
+DSC06876.jpg,Buses_priority,0.56,1168,295,1275,487

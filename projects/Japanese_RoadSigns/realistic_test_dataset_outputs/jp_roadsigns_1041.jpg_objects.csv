@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1041.jpg,No_vehicles_carrying_dangerous_goods,0.99,496,226,740,470
-jp_roadsigns_1041.jpg,Left_turn,0.98,252,119,497,361
-jp_roadsigns_1041.jpg,No_motorless_vehicle_except_bicycle,0.97,9,7,132,133
-jp_roadsigns_1041.jpg,School_zone,0.9,742,338,863,461
+jp_roadsigns_1041.jpg,No_vehicles_carrying_dangerous_goods,0.99,498,222,738,469
+jp_roadsigns_1041.jpg,Left_turn,0.99,253,119,494,359
+jp_roadsigns_1041.jpg,No_motorless_vehicle_except_bicycle,0.99,9,8,132,131
+jp_roadsigns_1041.jpg,School_zone,0.87,743,338,866,461

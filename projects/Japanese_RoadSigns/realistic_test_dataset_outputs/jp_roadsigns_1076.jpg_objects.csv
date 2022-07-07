@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1076.jpg,Steep_ascent10%,0.99,988,446,1234,692
-jp_roadsigns_1076.jpg,School_zone,0.99,8,8,246,249
-jp_roadsigns_1076.jpg,No_twoperson_motorcycles,0.99,739,333,984,581
-jp_roadsigns_1076.jpg,Left_turn,0.99,495,225,740,470
-jp_roadsigns_1076.jpg,Train_crossing,0.8,253,120,373,241
+jp_roadsigns_1076.jpg,School_zone,0.99,8,7,246,249
+jp_roadsigns_1076.jpg,Left_turn,0.99,499,227,740,469
+jp_roadsigns_1076.jpg,No_twoperson_motorcycles,0.99,742,332,985,581
+jp_roadsigns_1076.jpg,Steep_ascent10%,0.99,988,444,1233,693
+jp_roadsigns_1076.jpg,Train_crossing,0.97,252,119,373,238

@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1057.jpg,Slippery_road,0.99,498,227,742,475
-jp_roadsigns_1057.jpg,Bumpy_road,0.99,252,118,500,365
-jp_roadsigns_1057.jpg,No_large_trucks,0.99,738,332,985,581
-jp_roadsigns_1057.jpg,Straight_ahead_or_left_turn,0.97,8,7,132,133
+jp_roadsigns_1057.jpg,No_large_trucks,0.99,743,333,985,580
+jp_roadsigns_1057.jpg,Bumpy_road,0.99,254,119,499,365
+jp_roadsigns_1057.jpg,Slippery_road,0.98,500,227,743,473
+jp_roadsigns_1057.jpg,Straight_ahead_or_left_turn,0.97,10,8,131,132
+jp_roadsigns_1057.jpg,Maximum_speed_limit90km,0.54,992,451,1078,541

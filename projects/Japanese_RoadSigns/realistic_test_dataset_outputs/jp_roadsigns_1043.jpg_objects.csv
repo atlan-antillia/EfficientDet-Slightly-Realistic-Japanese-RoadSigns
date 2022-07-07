@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1043.jpg,Buses_priority,0.99,495,228,740,471
-jp_roadsigns_1043.jpg,Series_of_curves_to_the_left,0.99,8,5,248,249
-jp_roadsigns_1043.jpg,Bicycles_only,0.98,251,120,499,361
-jp_roadsigns_1043.jpg,No_large_trucks,0.95,990,445,1112,571
-jp_roadsigns_1043.jpg,Other_dangers,0.42,742,340,868,463
+jp_roadsigns_1043.jpg,Buses_priority,0.99,498,229,742,469
+jp_roadsigns_1043.jpg,No_large_trucks,0.99,991,447,1111,571
+jp_roadsigns_1043.jpg,Bicycles_only,0.99,256,120,497,361
+jp_roadsigns_1043.jpg,Series_of_curves_to_the_left,0.98,11,5,248,249
+jp_roadsigns_1043.jpg,Left_lane_ends,0.52,743,338,866,460

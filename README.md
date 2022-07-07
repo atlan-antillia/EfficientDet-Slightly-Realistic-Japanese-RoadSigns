@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/07/01)
+EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/07/08)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in Japan based on 
@@ -25,6 +25,11 @@ Added real roadsigns test dataset and inference script <b>4_real_inference,bat</
 Modified to use a new roadsigns tfrecord dataset to improve  
 inference accuracy to realistic_test_dataset.(2022/07/01)<br>
 </li>
+<li>
+Modified to use a mixed-size tfrecord dataset to improve  
+inference accuracy to realistic_test_dataset.(2022/07/08)<br>
+</li>
+
 <br>
 <h2>
 1. Installing tensorflow on Windows11
@@ -95,8 +100,8 @@ Please run the following command to install python packages for this project.<br
 
 <br>
 <h3>2.3 Download TFRecord dataset</h3>
-Please download the latest TFRecord_Japanese-RoadSigns-90classes_V7 (2022/07/01) dataset from  
-<a href="https://drive.google.com/file/d/1I6q40GRsSSdiBQE4XZQSExBK7-aPokjp/view?usp=sharing">TFRecord_Japanese-RoadSigns-90classes_V7.zip</a>
+Please download the latest TFRecord_Japanese-RoadSigns-90classes_V7.1 (2022/07/08) dataset from  
+<a href="https://drive.google.com/file/d/1eDDZaQsFCKfNSu_Ciuq5E4wA7ymDj2Ei/view?usp=sharing">TFRecord_Japanese-RoadSigns-90classes_V7.1.zip</a>
 
 The downloaded train and valid dataset must be placed in ./projects/Japanese_RoadSigns folder.
 <pre>
@@ -368,22 +373,22 @@ python ../../ModelTrainer.py ^
 90: 'Y_junction'
 </pre>
 <br>
-<b>Console output COCO meticss f and map at epoch 67</a></b><br>
-<img src="./asset/cocometric_train_console_output_V7_at_epoch67_0701.png" width="1024" height="auto">
+<b>Console output COCO meticss f and map at epoch 66</a></b><br>
+<img src="./asset/cocometric_train_console_output_V7_at_epoch66_0708.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/coco_metrics_f_map_V7_at_ecpoch67_0701.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_f_map_V7_at_ecpoch66_0708.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_V7_at_ecpoch67_0701.png" width="1024" height="auto">
+<img src="./asset/train_losses_V7_at_ecpoch66_0708.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/Japanese_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_V7_at_ecpoch67_0701.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_V7_at_ecpoch66_0708.png" width="1024" height="auto">
 <br>
 
 <h3>
@@ -527,6 +532,11 @@ The 3_inference.bat computes also the COCO metrics(f, map, mar) file to the real
 
 <a href="./projects/Japanese_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 <br>
+Inference by a new saved_model (2022/07/08):<br>
+<img src="./asset/cocometric_test_dataset_console_output_V7_at_epoch66_0708.png" width="740" height="auto"><br>
+<br>
+Inference by an old saved_model (2022/07/01):<br>
+
 <img src="./asset/cocometric_test_dataset_console_output_V7_at_epoch67_0701.png" width="740" height="auto"><br>
 
 

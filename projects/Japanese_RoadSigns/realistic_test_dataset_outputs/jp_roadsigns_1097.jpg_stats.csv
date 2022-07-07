@@ -1,6 +1,6 @@
 id, class, count
 1,Train_crossing,1
-2,Parking_allowed,1
-3,Stop,1
-4,Sound_horn,1
-5,Bumpy_road,1
+2,Sound_horn,1
+3,Parking_allowed,1
+4,Bumpy_road,1
+5,Stop,1

@@ -1,5 +1,5 @@
 id, class, count
-1,Turn_left_or_right,1
-2,No_buses,2
-3,Maximum_speed_limit60km,1
-4,Maximum_speed_limit80km,1
+1,No_buses,2
+2,Turn_left_or_right,1
+3,Maximum_speed_limit80km,1
+4,Maximum_speed_limit60km,1

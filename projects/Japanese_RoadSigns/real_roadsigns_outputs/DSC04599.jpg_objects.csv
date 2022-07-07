@@ -1,4 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-DSC04599.jpg,No_right_turn_crossing,0.95,668,368,819,531
-DSC04599.jpg,No_u_turns,0.94,669,126,816,283
-DSC04599.jpg,Pedesrtrian_crossing,0.6,303,343,424,579
+DSC04599.jpg,No_u_turns,0.98,669,127,814,283
+DSC04599.jpg,No_right_turn_crossing,0.98,668,368,817,530
+DSC04599.jpg,Restricted_parking,0.93,503,132,659,291
+DSC04599.jpg,Pedesrtrian_crossing,0.7,306,334,425,580

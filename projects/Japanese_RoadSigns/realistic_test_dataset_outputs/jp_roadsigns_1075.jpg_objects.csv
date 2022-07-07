@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1075.jpg,Road_closed_to_vehicles,0.99,8,6,252,252
-jp_roadsigns_1075.jpg,Keep_right,0.96,744,335,865,461
-jp_roadsigns_1075.jpg,Directions_indicator,0.9,499,227,622,352
-jp_roadsigns_1075.jpg,T_junction,0.87,248,119,375,241
+jp_roadsigns_1075.jpg,Road_closed_to_vehicles,0.99,10,7,251,251
+jp_roadsigns_1075.jpg,Directions_indicator,0.98,499,226,621,352
+jp_roadsigns_1075.jpg,T_junction,0.94,252,118,375,239
+jp_roadsigns_1075.jpg,Keep_right,0.94,744,337,864,461
+jp_roadsigns_1075.jpg,Maximum_speed_limit80km,0.51,991,451,1080,541

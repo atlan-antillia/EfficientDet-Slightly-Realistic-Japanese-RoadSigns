@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1078.jpg,Left_curve,0.99,11,8,254,254
-jp_roadsigns_1078.jpg,No_twoperson_motorcycles,0.98,495,226,737,470
-jp_roadsigns_1078.jpg,Sound_horn,0.96,986,445,1113,572
-jp_roadsigns_1078.jpg,Stopping_allowed,0.81,254,119,375,241
-jp_roadsigns_1078.jpg,No_pedestrian_crossing,0.44,743,337,866,462
+jp_roadsigns_1078.jpg,Left_curve,0.99,10,7,254,253
+jp_roadsigns_1078.jpg,No_twoperson_motorcycles,0.99,497,224,740,469
+jp_roadsigns_1078.jpg,Sound_horn,0.98,990,448,1112,572
+jp_roadsigns_1078.jpg,Stopping_allowed,0.98,255,120,375,241
+jp_roadsigns_1078.jpg,No_two_stage_right_turn_for_mopeds,0.92,742,336,864,462

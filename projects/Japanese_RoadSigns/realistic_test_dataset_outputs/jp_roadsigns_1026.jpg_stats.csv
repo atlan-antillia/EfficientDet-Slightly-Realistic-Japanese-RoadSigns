@@ -1,6 +1,6 @@
 id, class, count
-1,No_waiting,1
-2,Road_closed_to_vehicles,1
+1,Road_closed_to_vehicles,1
+2,No_waiting,1
 3,Maximum_speed_limit60km,1
-4,No_vehicles_wider_than2.2ms,1
-5,Restriction_ends,1
+4,Restriction_ends,1
+5,Minimum_speed_limit30km,1

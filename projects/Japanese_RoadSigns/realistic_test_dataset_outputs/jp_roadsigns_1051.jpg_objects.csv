@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-jp_roadsigns_1051.jpg,School_zone,0.99,990,446,1233,693
-jp_roadsigns_1051.jpg,Falling_rocks,0.98,742,335,984,581
-jp_roadsigns_1051.jpg,Minimum_speed_limit50km,0.98,9,6,253,248
-jp_roadsigns_1051.jpg,Roundabout,0.96,501,228,620,349
-jp_roadsigns_1051.jpg,Sound_horn,0.87,253,118,375,239
+jp_roadsigns_1051.jpg,Falling_rocks,0.99,745,335,986,580
+jp_roadsigns_1051.jpg,School_zone,0.99,990,446,1232,692
+jp_roadsigns_1051.jpg,Minimum_speed_limit50km,0.99,9,6,248,249
+jp_roadsigns_1051.jpg,Roundabout,0.98,502,229,619,348
+jp_roadsigns_1051.jpg,Sound_horn,0.98,253,120,374,239

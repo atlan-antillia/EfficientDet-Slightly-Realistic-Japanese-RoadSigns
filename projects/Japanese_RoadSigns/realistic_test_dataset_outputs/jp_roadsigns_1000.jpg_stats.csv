@@ -1,6 +1,6 @@
 id, class, count
-1,Rotary,1
-2,No_entry_for_vehicles,1
-3,Stop_line,1
-4,Road_narrows,1
-5,Road_closed_to_vehicles,1
+1,No_entry_for_vehicles,1
+2,Stop_line,1
+3,Rotary,1
+4,Road_closed_to_vehicles,1
+5,Road_narrows,1
