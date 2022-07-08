@@ -110,6 +110,18 @@ The downloaded train and valid dataset must be placed in ./projects/Japanese_Roa
         ├─train
         └─valid
 </pre>
+The train and valid folders contain the following tfrecord files:<br>
+<pre>
+    └─Japanese_RoadSigns
+        ├─train
+        │  └─mixed_size_train.tfrecord
+        │  └─train.tfrecord
+        └─valid
+           └─mixed_size_valid.tfrecord
+           └─valid.tfrecord
+</pre>
+We have added <b>mixed_size_train.tfrecord</b> and <b>mixed_size_valid.tfrecord</b> to improve inference accuracy for realistic_test_dataset (2022/07/08).<br>
+<br>
 
 <br>
 <h3>2.4 Workarounds for Windows</h3>
