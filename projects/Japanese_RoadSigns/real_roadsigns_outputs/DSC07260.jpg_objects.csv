@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC07260.jpg,Pedesrtrian_crossing,0.98,920,392,1108,617
+DSC07260.jpg,No_waiting,0.95,918,192,1099,392
+DSC07260.jpg,No_large_trucks,0.91,915,2,1096,192

@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC07257.jpg,Parking_allowed,0.82,992,124,1098,236
+DSC07257.jpg,Turn_right,0.5,200,296,274,369
+DSC07257.jpg,No_waiting,0.45,332,279,399,346

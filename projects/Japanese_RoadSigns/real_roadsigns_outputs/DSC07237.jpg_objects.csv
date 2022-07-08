@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC07237.jpg,No_waiting,0.98,606,437,710,561
+DSC07237.jpg,Stop,0.84,597,176,719,305
+DSC07237.jpg,Stop_line,0.48,104,208,328,295

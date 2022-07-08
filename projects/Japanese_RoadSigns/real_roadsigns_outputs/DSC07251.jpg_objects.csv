@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC07251.jpg,Roadworks,0.96,171,189,449,439
+DSC07251.jpg,Keep_right,0.49,473,203,718,437

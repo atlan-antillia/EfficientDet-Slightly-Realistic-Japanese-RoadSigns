@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+DSC07208.jpg,No_u_turns,0.72,695,375,801,537
+DSC07208.jpg,Bicycles_and_pedestrians_only,0.58,432,592,510,676
+DSC07208.jpg,Straight_ahead_or_right_turn,0.49,677,177,800,338
