@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/07/08)
+EfficientDet-Slightly-Realistic-Japanese-RoadSigns-90classes (Updated: 2022/07/12)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in Japan based on 
@@ -28,6 +28,10 @@ inference accuracy to realistic_test_dataset.(2022/07/01)<br>
 <li>
 Modified to use a mixed-size tfrecord dataset to improve  
 inference accuracy to realistic_test_dataset.(2022/07/08)<br>
+</li>
+
+<li>
+Added a ground-truth annotation.json file to the real_roadsigns to evaluate cocometrics on inference of the roadsigns. (2022/07/12)<br>
 </li>
 
 <br>
@@ -612,9 +616,9 @@ python ../../SavedModelInferencer.py ^
 <br>
 
 
-<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC06082.jpg" width="1280" height="auto"><br>
-<br>
 
+<img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC06058.jpg" width="1280" height="auto"><br>
+<br>
 <img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC06891.jpg" width="1280" height="auto"><br>
 <br>
 
@@ -630,4 +634,17 @@ python ../../SavedModelInferencer.py ^
 <br>
 
 <img src="./projects/Japanese_RoadSigns/real_roadsigns_outputs/DSC07260.jpg" width="1280" height="auto"><br>
+<br>
+
+
+<h3>
+10.3 COCO metrics of inference result of Real Japanese RoadSigns
+</h3>
+
+The 4_real_inference.bat computes also the COCO metrics(f, map, mar) file to the realistic_test_dataset as shown below:<br>
+
+<a href="./projects/Japanese_RoadSigns/real_roadsigns_outputs/prediction_map.csv">prediction_map_mar.csv</a>
+<br>
+Inference by a new saved_model (2022/07/08):<br>
+<img src="./asset/cocometric_real_roadsigns_dataset_console_output_V7_at_epoch66_0712.png" width="740" height="auto"><br>
 <br>
