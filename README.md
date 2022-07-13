@@ -9,8 +9,8 @@ Please also refer to our experimental project <a href="https://github.com/atlan-
 EfficientDet-Japanese-RoadSigns</a>.
 <br>
 <li>
-Modified to use the TFRecord_Japanese-RoadSigns-90classes_V2.1 in
-<a href="https://drive.google.com/drive/folders/1jLK8xfoYydK47q8nomsqCjzDhyg2Npvd?usp=sharing">Japanese_RoadSigns_90classes_V5</a>
+Modified to use 
+<a href="https://drive.google.com/file/d/1eDDZaQsFCKfNSu_Ciuq5E4wA7ymDj2Ei/view?usp=sharing">TFRecord_Japanese-RoadSigns-90classes_V7.1.zip </a> (2022/07/08)
 </li>
 <li>
 Modified to use tensorflow 2.8.0 on Windows11. (2022/06/16)<br>
